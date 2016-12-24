@@ -1,0 +1,52 @@
+@import url(//fonts.googleapis.com/css?family=Oswald);
+
+/* IMPORTANT NOTE: Do not have changes on addtion-styles.css
+ * Please use Gulp and change any .scss files in Styles/scss
+=============================================================*/
+
+/**
+ * Global variables
+ */
+
+@font-face {
+	font-family: 'gotham';
+	src: url('../fonts/Gotham-Book.otf');
+}
+
+@font-face {
+	font-family: 'gotham-light';
+	src: url('../fonts/Gotham-Light.otf');
+}
+
+@font-face {
+	font-family: 'gotham-medium';
+	src: url('../fonts/Gotham-Medium.otf');
+}
+
+*,
+body,
+input,
+button,
+select,
+textarea {
+	font-family: 'gotham';
+	outline: none;
+}
+
+html {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/**
+ * Layout styling
+ */
+
+/**
+ * Header styling
+ */
+
+/**
+ * Footer styling
+ */
+
