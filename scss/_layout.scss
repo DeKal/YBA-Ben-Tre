@@ -3,3 +3,237 @@
  */
 
 
+/* ***********HOMEPAE STYLES - Start ***********/
+body.home.page {
+	.caroufredsel_wrapper {
+		.content_slider_ul {
+			li {
+				a {
+					.title {
+						position: absolute;
+				    top: 438px;
+				    height: 80px;
+				    background: black;
+				    opacity: .7;
+				    color: white;
+				    padding-top: 15px;
+				    word-wrap: break-word;
+				    max-width: 780px;
+				    width: 100%;
+					}
+				}
+			}
+		}
+	}
+}
+
+#logo {
+	height: 112px;
+	width: 86px;
+	margin-left: 100px;
+}
+.green-title {
+	.Latest_news {
+		border-bottom: 1px solid #077641;
+		box-shadow: 0 4px 2px -2px #bbbbbb;
+		.title {
+			width: 150px;
+			font-size: 14px;
+			color: white;
+			background-color: #077641;
+			text-align: center;
+			margin: 0;
+			box-shadow: 0 3px 5px #999999;
+			padding: 5px 0;
+		}
+		.ul-first {
+			margin-top: 20px;
+		}
+		.ul-second {
+			margin-top: 20px;
+		}
+	}
+}
+.homepage-green-title {
+	margin-bottom: 0;
+	height: 80px;
+	.two-third {
+		margin-left: 0;
+		margin-right: 2%;
+	}
+}
+._10b4 {
+	max-height: 360px;
+}
+._2lqg {
+		max-height: 360px;
+}
+
+.column_blog_news {
+	.photo {
+		border: none !important;
+	}
+
+	.desc {
+		h5 {
+			a {
+				font-size: 14px !important;
+			}
+		}
+	}
+
+	.ul-second {
+		.post {
+			.photo {
+				width: 35%;
+				//border: none;
+			}
+			.desc {
+				margin-left: 35% !important;
+	    	width: 65% !important;
+
+				h5 {
+					a {
+
+					}
+				}
+			}
+		}
+	}
+}
+/* ***********HOMEPAE STYLES - End ***********/
+
+
+/* ***********Huy - Giới thiệu YBA Bến Tre - Start ***********/
+
+#static-page-content {
+	margin-top: 0;
+	font-size: 12px;
+	color: #000000;
+}
+em, i {
+	font-style: normal;
+	text-decoration: underline;
+	margin-top: 14px;
+}
+/* ***********Huy - Giới thiệu YBA Bến Tre - End ***********/
+
+
+/* **************ADS STYLES - Start*********/
+.ads-image {
+	img {
+		width: 95% !important;
+		border: 1px;
+		margin: 0 !important;
+	}
+}
+
+div[id^="bwg_container"] div[id^="bwg_container"]  .bwg_img_clear {
+	max-height: 100% !important;
+	max-width: 100% !important;
+	padding: 0 !important;
+}  
+/* **************ADS STYLES - End*********/
+
+
+/*******STATIC PAGE CSS ************************************/
+/*************************border for static content in page like contact or about**************************/
+/*******main content of static page***************/
+
+#main-static-content {
+	.x-container {
+		margin-left: 0px !important;
+	}
+
+	.x-container.width {
+		width: 100% !important;
+	}
+
+	p {
+		margin: 0px 0px 0px 0px;
+	}
+}
+
+.green-page-title {
+	font-size: 16px;
+	color: #107847;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.last-update-text {
+	margin-bottom: 15px;
+	font-size: 10px;
+	color: #888888;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.static-page-content-text {
+	font-size: 12px;
+	color: #000000;
+	font-family: "Times New Roman", Times, serif;
+}
+
+/*************************** remove comment and dates post box under post ************************/
+.desc_footer {
+	display: none;
+}
+/*************************post summary ***************************/
+.post-excerpt {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #4A4A4A;
+}
+
+/*****************************YBA home event blog ******************************/
+/* Blog header*/
+.column_blog_news {
+	.desc {
+		a {
+			font-family: "Times New Roman", Times, serif;
+			font-size: 16px;
+			color: #000000 !important;
+			font-weight: bold;
+		}
+	}
+}
+
+/*****************************YBA home notify css********************************/
+.home-slide-notify {
+	.content_slider_ul {
+		a {
+			.img {
+				width: 100%;
+			}
+
+			/****description of slider****/
+			.desc {
+				display: none;
+			}
+			img {
+				max-height: none !important;
+			}
+		}
+	}
+}
+.content_slider.flat.description {
+	padding-bottom: 30px;
+	ul {
+		li {
+			/***** height width of image slider *****/
+			img {
+				margin-bottom: 30px;
+				width: 100%;
+				max-height: 300px;
+			}
+		}
+	}
+}
+.notify-header {
+	margin: 0px 0px 15px 0px;
+}
+.fan-page-header {
+	margin: 0px 0px 15px 0px;
+}
+#Content {
+	padding-top: 10px;
+}

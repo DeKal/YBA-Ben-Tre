@@ -24,6 +24,19 @@ add_filter( 'the_excerpt', 'shortcode_unautop');
 add_filter( 'the_excerpt', 'do_shortcode');
 
 
+
+
+/**
+ * Add addtion style and script files
+ */
+
+add_action( 'wp_enqueue_scripts', 'enqueue_my_styles', 1000);
+function enqueue_my_styles() {
+  /*wp_enqueue_style( 'addition-styles', get_theme_root_uri() . '/betheme/css/addition-styles.css' );*/
+  wp_enqueue_script( 'addition-scripts', get_theme_root_uri() . '/betheme/js/addition-scripts.js' );
+}
+
+
 /* ---------------------------------------------------------------------------
  * White Label
  * IMPORTANT: We recommend the use of Child Theme to change this

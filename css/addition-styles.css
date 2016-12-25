@@ -33,20 +33,367 @@ textarea {
 	outline: none;
 }
 
-html {
-	margin: 0 !important;
-	padding: 0 !important;
-}
-
 /**
  * Layout styling
  */
+
+/* ***********HOMEPAE STYLES - Start ***********/
+
+body.home.page .caroufredsel_wrapper .content_slider_ul li a .title {
+	position: absolute;
+	top: 438px;
+	width: 100%;
+	max-width: 780px;
+	height: 80px;
+	padding-top: 15px;
+	word-wrap: break-word;
+	opacity: .7;
+	color: white;
+	background: black;
+}
+
+#logo {
+	width: 86px;
+	height: 112px;
+	margin-left: 100px;
+}
+
+.green-title .Latest_news {
+	border-bottom: 1px solid #077641;
+	box-shadow: 0 4px 2px -2px #bbb;
+}
+
+.green-title .Latest_news .title {
+	font-size: 14px;
+	width: 150px;
+	margin: 0;
+	padding: 5px 0;
+	text-align: center;
+	color: white;
+	background-color: #077641;
+	box-shadow: 0 3px 5px #999;
+}
+
+.green-title .Latest_news .ul-first {
+	margin-top: 20px;
+}
+
+.green-title .Latest_news .ul-second {
+	margin-top: 20px;
+}
+
+.homepage-green-title {
+	height: 80px;
+	margin-bottom: 0;
+}
+
+.homepage-green-title .two-third {
+	margin-right: 2%;
+	margin-left: 0;
+}
+
+._10b4 {
+	max-height: 360px;
+}
+
+._2lqg {
+	max-height: 360px;
+}
+
+.column_blog_news .photo {
+	border: none !important;
+}
+
+.column_blog_news .desc h5 a {
+	font-size: 14px !important;
+}
+
+.column_blog_news .ul-second .post .photo {
+	width: 35%;
+	border: none;
+}
+
+.column_blog_news .ul-second .post .desc {
+	width: 65% !important;
+	margin-left: 35% !important;
+}
+
+/* ***********HOMEPAE STYLES - End ***********/
+
+/* ***********Huy - Giới thiệu YBA Bến Tre - Start ***********/
+
+#static-page-content {
+	font-size: 12px;
+	margin-top: 0;
+	color: #000;
+}
+
+em,
+i {
+	font-style: normal;
+	margin-top: 14px;
+	text-decoration: underline;
+}
+
+/* ***********Huy - Giới thiệu YBA Bến Tre - End ***********/
+
+/* **************ADS STYLES - Start*********/
+
+.ads-image img {
+	width: 95% !important;
+	margin: 0 !important;
+	border: 1px;
+}
+
+div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
+	max-width: 100% !important;
+	max-height: 100% !important;
+	padding: 0 !important;
+}
+
+/* **************ADS STYLES - End*********/
+
+/*******STATIC PAGE CSS ************************************/
+
+/*************************border for static content in page like contact or about**************************/
+
+/*******main content of static page***************/
+
+#main-static-content .x-container {
+	margin-left: 0 !important;
+}
+
+#main-static-content .x-container.width {
+	width: 100% !important;
+}
+
+#main-static-content p {
+	margin: 0 0 0 0;
+}
+
+.green-page-title {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #107847;
+}
+
+.last-update-text {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 10px;
+	margin-bottom: 15px;
+	color: #888;
+}
+
+.static-page-content-text {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 12px;
+	color: #000;
+}
+
+/*************************** remove comment and dates post box under post ************************/
+
+.desc_footer {
+	display: none;
+}
+
+/*************************post summary ***************************/
+
+.post-excerpt {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 12px;
+	color: #4a4a4a;
+}
+
+/*****************************YBA home event blog ******************************/
+
+/* Blog header*/
+
+.column_blog_news .desc a {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000 !important;
+}
+
+/*****************************YBA home notify css********************************/
+
+.home-slide-notify .content_slider_ul a { /****description of slider****/
+}
+
+.home-slide-notify .content_slider_ul a .img {
+	width: 100%;
+}
+
+.home-slide-notify .content_slider_ul a .desc {
+	display: none;
+}
+
+.home-slide-notify .content_slider_ul a img {
+	max-height: none !important;
+}
+
+.content_slider.flat.description {
+	padding-bottom: 30px;
+}
+
+.content_slider.flat.description ul li { /***** height width of image slider *****/
+}
+
+.content_slider.flat.description ul li img {
+	width: 100%;
+	max-height: 300px;
+	margin-bottom: 30px;
+}
+
+.notify-header {
+	margin: 0 0 15px 0;
+}
+
+.fan-page-header {
+	margin: 0 0 15px 0;
+}
+
+#Content {
+	padding-top: 10px;
+}
 
 /**
  * Header styling
  */
 
+/***********    HUY HEADER - Start ***********/
+
+.header-stack #Top_bar {
+	box-shadow: 0 4px 2px -2px rgba(128, 128, 128, .56);
+}
+
+.header-stack #Top_bar .logo {
+	margin-bottom: 40px;
+	border-bottom-width: 0;
+}
+
+.header-stack #Top_bar .logo #logo {
+	width: 84px;
+	height: 112px;
+	margin-left: 100px;
+}
+
+.header-stack #Top_bar .menu > li a:after {
+	background: #087441 !important;
+}
+
+.header-stack #Top_bar .menu > li > a span:not(.description) {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.header-stack #Top_bar .menu > .current-menu-item > a,
+.header-stack #Top_bar .menu > .current_page_item > a,
+.header-stack #Top_bar .menu > .current-menu-parent > a,
+.header-stack #Top_bar .menu > .current-page-parent > a,
+.header-stack #Top_bar .menu > .current-menu-ancestor > a,
+.header-stack #Top_bar .menu > .current-page-ancestor > a,
+.header-stack #Top_bar .menu > .hover > a {
+	color: #087441 !important;
+}
+
+.header-stack .secondary_menu_wrapper {
+	position: absolute;
+	left: -50%;
+	margin: 0;
+	margin-right: -50%;
+}
+
+.header-stack .center {
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+}
+
+.header-stack .green {
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+	color: #087441;
+}
+
+.header-stack .red {
+	color: #ed1c24;
+}
+
+.header-stack #header-title-1 {
+	font-size: 24px;
+	margin-bottom: 5px;
+	color: #087441;
+}
+
+.header-stack #header-title-2 {
+	font-size: 14px;
+	margin-bottom: 10px;
+	color: #087441;
+}
+
+.header-stack #header-title-3 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #ed1c24;
+}
+
+/***********    HUY HEADER - End ***********/
+
 /**
  * Footer styling
  */
+
+/************* HUY FOOTER - Start **********/
+
+/* .column.two-third {
+	margin-left: 100px;
+} */
+
+.footer-title {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.footer-info {
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+#Footer h1,
+#Footer h2,
+#Footer h3,
+#Footer h4,
+#Footer h5,
+#Footer h6 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#Footer h1 a,
+#Footer h2 a,
+#Footer h3 a,
+#Footer h4 a,
+#Footer h5 a,
+#Footer h6 a {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#Footer h1 a:hover,
+#Footer h2 a:hover,
+#Footer h3 a:hover,
+#Footer h4 a:hover,
+#Footer h5 a:hover,
+#Footer h6 a:hover {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.textwidget {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+/************* HUY FOOTER - End **********/
 

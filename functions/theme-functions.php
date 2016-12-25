@@ -104,7 +104,7 @@ add_filter( 'excerpt_length', 'mfn_excerpt_length', 999 );
 if( ! function_exists( 'mfn_trim_excerpt' ) )
 {
 	function mfn_trim_excerpt( $text ) {
-		return '<span class="excerpt-hellip"> […]</span>';
+		return '<span class="excerpt-hellip">… </span>';
 	}
 }
 add_filter( 'excerpt_more', 'mfn_trim_excerpt' );

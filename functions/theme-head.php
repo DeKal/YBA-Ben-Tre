@@ -108,11 +108,13 @@ if( ! function_exists( 'mfn_styles' ) )
 		$theme_disable = mfn_opts_get( 'theme-disable' );
 		
 		// wp_enqueue_style ------------------------------------------------------
+
 		wp_enqueue_style( 'style',				get_stylesheet_uri(), false, THEME_VERSION, 'all' );
 		
 		wp_enqueue_style( 'mfn-base',			THEME_URI .'/css/base.css', false, THEME_VERSION, 'all' );
 		wp_enqueue_style( 'mfn-layout',			THEME_URI .'/css/layout.css', false, THEME_VERSION, 'all' );
 		wp_enqueue_style( 'mfn-shortcodes',		THEME_URI .'/css/shortcodes.css', false, THEME_VERSION, 'all' );	
+		wp_enqueue_style( 'addition-styles',	THEME_URI .'/css/addition-styles.css', false, THEME_VERSION, 'all' );
 		
 		// plugins
 		if( ! isset( $theme_disable['entrance-animations'] ) ){
