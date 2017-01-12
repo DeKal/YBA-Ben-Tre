@@ -2,16 +2,26 @@
  * Layout styling
  */
 
+/* ***********ALL PAGES LAYOUT - Start ***********/
+#Content {
+	.section_wrapper {
+    max-width: 1140px;
+
+    .wrap.one {
+    	width: 98%;
+    }
+	}
+}
+/* ***********ALL PAGES LAYOUT - End ***********/
 
 /* ***********HOMEPAE STYLES - Start ***********/
-body.home.page {
 	.caroufredsel_wrapper {
 		.content_slider_ul {
 			li {
 				a {
 					.title {
 						position: absolute;
-				    top: 438px;
+				    top: 402px;
 				    height: 80px;
 				    background: black;
 				    opacity: .7;
@@ -25,82 +35,109 @@ body.home.page {
 			}
 		}
 	}
-}
 
-#logo {
-	height: 112px;
-	width: 86px;
-	margin-left: 100px;
-}
-.green-title {
-	.Latest_news {
-		border-bottom: 1px solid #077641;
-		box-shadow: 0 4px 2px -2px #bbbbbb;
-		.title {
-			width: 150px;
-			font-size: 14px;
-			color: white;
-			background-color: #077641;
-			text-align: center;
-			margin: 0;
-			box-shadow: 0 3px 5px #999999;
-			padding: 5px 0;
-		}
-		.ul-first {
-			margin-top: 20px;
-		}
-		.ul-second {
-			margin-top: 20px;
-		}
+	#logo {
+		height: 112px;
+		width: 86px;
+		margin-left: 100px;
 	}
-}
-.homepage-green-title {
-	margin-bottom: 0;
-	height: 80px;
-	.two-third {
-		margin-left: 0;
-		margin-right: 2%;
-	}
-}
-._10b4 {
-	max-height: 360px;
-}
-._2lqg {
-		max-height: 360px;
-}
-
-.column_blog_news {
-	.photo {
-		border: none !important;
-	}
-
-	.desc {
-		h5 {
-			a {
-				font-size: 14px !important;
+	.green-title {
+		&.column{
+			margin-bottom: 10px;
+		}
+		.Latest_news {
+			border-bottom: 1px solid #077641;
+			box-shadow: 0 4px 2px -2px #bbbbbb;
+			.title {
+				width: 150px;
+				font-size: 14px;
+				color: white;
+				background-color: #077641;
+				text-align: center;
+				margin: 0;
+				box-shadow: 0 3px 5px #999999;
+				padding: 5px 0;
+			}
+			.ul-first {
+				margin-top: 20px;
+			}
+			.ul-second {
+				margin-top: 20px;
 			}
 		}
 	}
+	.homepage-green-title {
+		margin-bottom: 0;
+		height: 80px;
+		.two-third {
+			margin-left: 0;
+			margin-right: 2%;
+		}
+	}
 
-	.ul-second {
-		.post {
+	.column_blog_news {
+		.Latest_news:not(.featured) {
 			.photo {
 				width: 35%;
-				//border: none;
+				border: none !important;
 			}
+
 			.desc {
 				margin-left: 35% !important;
-	    	width: 65% !important;
+		  	width: 65% !important;
 
 				h5 {
-					a {
+					margin: 0;
 
+					a {
+						font-size: 14px !important;
+					}
+				}
+
+				.post-excerpt {
+					margin: 0;
+				}
+			}
+		}
+
+		.Latest_news.featured {
+			.ul-second {
+				.photo {
+					width: 35%;
+					border: none !important;
+				}
+
+				.desc {
+					margin-left: 35% !important;
+			  	width: 65% !important;
+
+					h5 {
+						margin: 0;
+
+						a {
+							font-size: 14px !important;
+						}
+					}			
+					
+					.post-excerpt {
+						margin: 0;
 					}
 				}
 			}
 		}
 	}
-}
+	.p-no-margin{
+		p{
+			margin: 0;
+		}
+	}
+	.bwg_album_extended_div_0{
+		border:none !important;
+		border-spacing: 0px !important;
+		.bwg_album_extended_thumb_div_0, .bwg_album_extended_text_div_0{
+			border:none !important;
+		}
+	}
 /* ***********HOMEPAE STYLES - End ***********/
 
 

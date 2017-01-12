@@ -37,11 +37,23 @@ textarea {
  * Layout styling
  */
 
+/* ***********ALL PAGES LAYOUT - Start ***********/
+
+#Content .section_wrapper {
+	max-width: 1140px;
+}
+
+#Content .section_wrapper .wrap.one {
+	width: 98%;
+}
+
+/* ***********ALL PAGES LAYOUT - End ***********/
+
 /* ***********HOMEPAE STYLES - Start ***********/
 
-body.home.page .caroufredsel_wrapper .content_slider_ul li a .title {
+.caroufredsel_wrapper .content_slider_ul li a .title {
 	position: absolute;
-	top: 438px;
+	top: 402px;
 	width: 100%;
 	max-width: 780px;
 	height: 80px;
@@ -56,6 +68,10 @@ body.home.page .caroufredsel_wrapper .content_slider_ul li a .title {
 	width: 86px;
 	height: 112px;
 	margin-left: 100px;
+}
+
+.green-title.column {
+	margin-bottom: 10px;
 }
 
 .green-title .Latest_news {
@@ -92,30 +108,62 @@ body.home.page .caroufredsel_wrapper .content_slider_ul li a .title {
 	margin-left: 0;
 }
 
-._10b4 {
-	max-height: 360px;
-}
-
-._2lqg {
-	max-height: 360px;
-}
-
-.column_blog_news .photo {
+.column_blog_news .Latest_news:not(.featured) .photo {
+	width: 35%;
 	border: none !important;
 }
 
-.column_blog_news .desc h5 a {
+.column_blog_news .Latest_news:not(.featured) .desc {
+	width: 65% !important;
+	margin-left: 35% !important;
+}
+
+.column_blog_news .Latest_news:not(.featured) .desc h5 {
+	margin: 0;
+}
+
+.column_blog_news .Latest_news:not(.featured) .desc h5 a {
 	font-size: 14px !important;
 }
 
-.column_blog_news .ul-second .post .photo {
-	width: 35%;
-	border: none;
+.column_blog_news .Latest_news:not(.featured) .desc .post-excerpt {
+	margin: 0;
 }
 
-.column_blog_news .ul-second .post .desc {
+.column_blog_news .Latest_news.featured .ul-second .photo {
+	width: 35%;
+	border: none !important;
+}
+
+.column_blog_news .Latest_news.featured .ul-second .desc {
 	width: 65% !important;
 	margin-left: 35% !important;
+}
+
+.column_blog_news .Latest_news.featured .ul-second .desc h5 {
+	margin: 0;
+}
+
+.column_blog_news .Latest_news.featured .ul-second .desc h5 a {
+	font-size: 14px !important;
+}
+
+.column_blog_news .Latest_news.featured .ul-second .desc .post-excerpt {
+	margin: 0;
+}
+
+.p-no-margin p {
+	margin: 0;
+}
+
+.bwg_album_extended_div_0 {
+	border-spacing: 0 !important;
+	border: none !important;
+}
+
+.bwg_album_extended_div_0 .bwg_album_extended_thumb_div_0,
+.bwg_album_extended_div_0 .bwg_album_extended_text_div_0 {
+	border: none !important;
 }
 
 /* ***********HOMEPAE STYLES - End ***********/
