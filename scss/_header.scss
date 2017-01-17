@@ -5,13 +5,15 @@
 /***********    HUY HEADER - Start ***********/
 .header-stack {
 #Top_bar {
+  background-image: linear-gradient(-180deg, #149F6D 0%, #107847 100%);
   .logo {
     margin-bottom: 40px;
     border-bottom-width: 0;
 
-    #logo {
-      height: 112px;
-      width: 84px;
+    #logo, .logo-main{
+      padding: 0px;
+      height: 98px;
+      width: 127px;
       margin-left: 100px;
     }
   }

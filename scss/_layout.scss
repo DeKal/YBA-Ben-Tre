@@ -36,11 +36,6 @@
 		}
 	}
 
-	#logo {
-		height: 112px;
-		width: 86px;
-		margin-left: 100px;
-	}
 	.green-title {
 		&.column{
 			margin-bottom: 10px;
@@ -126,7 +121,8 @@
 			}
 		}
 	}
-	.p-no-margin{
+	.no-margin{
+	    margin: 0;
 		p{
 			margin: 0;
 		}
@@ -158,10 +154,8 @@ em, i {
 
 /* **************ADS STYLES - Start*********/
 .ads-image {
-	img {
-		width: 95% !important;
-		border: 1px;
-		margin: 0 !important;
+	.chpcs_foo_content{
+		
 	}
 }
 

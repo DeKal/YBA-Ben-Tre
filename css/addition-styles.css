@@ -67,12 +67,6 @@ textarea {
 	background: black;
 }
 
-#logo {
-	width: 86px;
-	height: 112px;
-	margin-left: 100px;
-}
-
 .green-title.column {
 	margin-bottom: 10px;
 }
@@ -155,7 +149,11 @@ textarea {
 	margin: 0;
 }
 
-.p-no-margin p {
+.no-margin {
+	margin: 0;
+}
+
+.no-margin p {
 	margin: 0;
 }
 
@@ -189,12 +187,6 @@ i {
 /* ***********Huy - Giới thiệu YBA Bến Tre - End ***********/
 
 /* **************ADS STYLES - Start*********/
-
-.ads-image img {
-	width: 95% !important;
-	margin: 0 !important;
-	border: 1px;
-}
 
 div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 	max-width: 100% !important;
@@ -315,6 +307,7 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 /***********    HUY HEADER - Start ***********/
 
 .header-stack #Top_bar {
+	background-image: linear-gradient(-180deg, #149f6d 0%, #107847 100%);
 	box-shadow: 0 4px 2px -2px rgba(128, 128, 128, .56);
 }
 
@@ -323,10 +316,12 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 	border-bottom-width: 0;
 }
 
-.header-stack #Top_bar .logo #logo {
-	width: 84px;
-	height: 112px;
+.header-stack #Top_bar .logo #logo,
+.header-stack #Top_bar .logo .logo-main {
+	width: 127px;
+	height: 98px;
 	margin-left: 100px;
+	padding: 0;
 }
 
 .header-stack #Top_bar .menu > li a:after {
