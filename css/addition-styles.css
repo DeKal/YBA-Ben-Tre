@@ -6,10 +6,7 @@
 
 /**
  * Global variables
- dasdasdada
  */
-
-/* dasdasdasdasda*/
 
 @font-face {
 	font-family: 'gotham';
@@ -318,10 +315,13 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 
 .header-stack #Top_bar .logo #logo,
 .header-stack #Top_bar .logo .logo-main {
-	width: 127px;
-	height: 98px;
+	width: 98px;
+	height: 127px;
 	margin-left: 100px;
 	padding: 0;
+}
+
+.header-stack #Top_bar .menu_wrapper { /*left: -15%;*/ /*position: inherit;*/ /*width: 130%;*/ /*background-image: linear-gradient(-180deg, #FFEA5A 0%, #FCBB35 100%);*/ /*padding-left: 200px;*/
 }
 
 .header-stack #Top_bar .menu > li a:after {
@@ -330,6 +330,7 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 
 .header-stack #Top_bar .menu > li > a span:not(.description) {
 	font-family: 'Times New Roman', Times, serif;
+	line-height: 37px;
 }
 
 .header-stack #Top_bar .menu > .current-menu-item > a,
@@ -347,6 +348,11 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 	left: -50%;
 	margin: 0;
 	margin-right: -50%;
+}
+
+.header-stack .secondary_menu_wrapper #yba-header-title img {
+	max-width: 685px;
+	max-height: 109px;
 }
 
 .header-stack .center {
