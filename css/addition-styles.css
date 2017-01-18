@@ -39,12 +39,33 @@ textarea {
 
 /* ***********ALL PAGES LAYOUT - Start ***********/
 
+#Content {
+	padding: 0;
+}
+
 #Content .section_wrapper {
 	max-width: 1140px;
 }
 
 #Content .section_wrapper .wrap.one {
 	width: 98%;
+}
+
+#Content .section_wrapper .wrap.one .news-ticker-headline {
+	width: 110vw;
+	height: 25px;
+	margin-bottom: 10px;
+	margin-left: calc(-1 * ((100vw - 100%) / 2));
+	color: black;
+	background-image: linear-gradient(-180deg, rgba(242, 228, 183, .39) 0%, rgba(254, 221, 80, .39) 100%);
+}
+
+#Content .section_wrapper .wrap.one .news-ticker-headline p {
+	margin: 0 0 4px;
+}
+
+#Content .section_wrapper .wrap.one .news-ticker-headline a {
+	color: black;
 }
 
 /* ***********ALL PAGES LAYOUT - End ***********/
@@ -78,7 +99,7 @@ textarea {
 }
 
 .green-title .Latest_news .title {
-	font-family: Helvetica-Bold;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 40px;
 	margin-left: 10px;
@@ -247,7 +268,7 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 }
 
 .static-page-content-text {
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 12px;
 	color: #000;
 }
@@ -261,7 +282,7 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 /*************************post summary ***************************/
 
 .post-excerpt {
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 12px;
 	color: #4a4a4a;
 }
@@ -271,7 +292,7 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 /* Blog header*/
 
 .column_blog_news .desc a {
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: bold;
 	color: #000 !important;
@@ -313,10 +334,6 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 	margin: 0 0 10px 0;
 }
 
-#Content {
-	padding-top: 10px;
-}
-
 /**
  * Header styling
  */
@@ -325,6 +342,7 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 
 .header-stack #Top_bar {
 	background-image: linear-gradient(-180deg, #149f6d 0%, #107847 100%);
+	box-shadow: none !important;
 	box-shadow: 0 4px 2px -2px rgba(128, 128, 128, .56);
 }
 
@@ -353,8 +371,10 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 }
 
 .header-stack #Top_bar .menu > li > a span:not(.description) {
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 600;
 	line-height: 37px;
+	border: none;
 }
 
 .header-stack #Top_bar .menu > .current-menu-item > a,
@@ -380,12 +400,12 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 }
 
 .header-stack .center {
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-align: center;
 }
 
 .header-stack .green {
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	color: #087441;
 }
@@ -440,7 +460,7 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 #Footer h4,
 #Footer h5,
 #Footer h6 {
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: bold;
 }
@@ -451,7 +471,7 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 #Footer h4 a,
 #Footer h5 a,
 #Footer h6 a {
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: bold;
 }
@@ -462,13 +482,13 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 #Footer h4 a:hover,
 #Footer h5 a:hover,
 #Footer h6 a:hover {
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: bold;
 }
 
 .textwidget {
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /************* HUY FOOTER - End **********/

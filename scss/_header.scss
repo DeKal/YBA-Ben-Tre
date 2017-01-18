@@ -6,6 +6,8 @@
 .header-stack {
 #Top_bar {
   background-image: linear-gradient(-180deg, #149F6D 0%, #107847 100%);
+  box-shadow: none !important;
+
   .logo {
     margin-bottom: 40px;
     border-bottom-width: 0;
@@ -34,7 +36,9 @@
         span {
           &:not(.description) {
             line-height: 37px;
-            font-family: "Times New Roman", Times, serif;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: 600;
+            border: none;
           }
         }
       }
@@ -61,12 +65,12 @@
     }
   }
   .center {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
   }
   .green {
     color: #087441;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
   }
   .red {
