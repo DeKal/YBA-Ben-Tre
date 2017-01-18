@@ -186,25 +186,50 @@ textarea {
 	border: none !important;
 }
 
+.newsletter #mc4wp-form-1 {
+	margin: 0;
+}
+
 .newsletter form {
-	width: 345px;
+	width: 100%;
 	margin: 0;
 	padding: 0;
 }
 
 .newsletter form .email-input {
 	font-size: 14px;
-	margin-bottom: 10px;
+	float: left;
+	width: 85% !important;
+	margin: 0;
 	text-align: center;
 }
 
 .newsletter form .btn-subscribe {
 	font-size: 14px;
-	width: 345px;
+	width: 15% !important;
 	margin: 0;
 	text-align: center;
 	color: white;
-	background-color: #077641;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#gal_front_form_0 {
+	padding: 0;
+}
+
+div[id^='bwg_container'] a {
+	float: left;
+	margin: 0 2px 5px 0;
+	border-color: #23a468;
+}
+
+.thu-vien-anh-review {
+	margin-top: 0;
+}
+
+.post-header {
+	margin-top: 10px;
 }
 
 /* ***********HOMEPAE STYLES - End ***********/
@@ -227,6 +252,12 @@ i {
 /* ***********Huy - Giới thiệu YBA Bến Tre - End ***********/
 
 /* **************ADS STYLES - Start*********/
+
+.ads-image.column,
+.ads-image.columns {
+	float: left;
+	margin: 0 1% -15px;
+}
 
 div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 	max-width: 100% !important;
@@ -445,13 +476,23 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 } */
 
 .footer-title {
-	font-size: 16px;
+	font-family: Helvetica-Bold;
+	font-size: 18px;
 	font-weight: bold;
+	color: #ffd503;
 }
 
-.footer-info {
+.footer-info,
+#Footer #visitor-counter .visitor-counter-content {
+	font-family: Helvetica;
 	font-size: 14px;
 	margin-top: 5px;
+	color: #fff;
+}
+
+#Footer {
+	border: 1px solid #077340;
+	background-image: linear-gradient(-180deg, #10ac74 0%, #077340 100%);
 }
 
 #Footer h1,
@@ -485,6 +526,41 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: bold;
+}
+
+#Footer #visitor-counter p,
+#Footer #visitor-counter .visitor-counter-heading {
+	margin: 0;
+}
+
+#Footer #visitor-counter .visitor-counter-heading a {
+	font-family: Helvetica-Bold !important;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffd503 !important;
+}
+
+#Footer .footer_copy {
+	height: 36px;
+	border: 1px solid #077340;
+	background: #09522f;
+}
+
+#Footer .footer_copy .social {
+	display: none;
+}
+
+#Footer .footer_copy .one {
+	height: 35px;
+	margin-bottom: 0 !important;
+	padding-top: 0 !important;
+}
+
+#Footer .footer_copy .copyright {
+	font-family: Helvetica;
+	font-size: 12px;
+	line-height: 35px;
+	color: #fff;
 }
 
 .textwidget {

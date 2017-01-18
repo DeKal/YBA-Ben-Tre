@@ -34,64 +34,90 @@
 /* ***********ALL PAGES LAYOUT - End ***********/
 
 /* ***********HOMEPAE STYLES - Start ***********/
-	.caroufredsel_wrapper {
-		.content_slider_ul {
-			li {
-				a {
-					.title {
-						position: absolute;
-				    top: 402px;
-				    height: 80px;
-				    background: black;
-				    opacity: .7;
-				    color: white;
-				    padding-top: 15px;
-				    word-wrap: break-word;
-				    max-width: 780px;
-				    width: 100%;
-					}
+.caroufredsel_wrapper {
+	.content_slider_ul {
+		li {
+			a {
+				.title {
+					position: absolute;
+			    top: 402px;
+			    height: 80px;
+			    background: black;
+			    opacity: .7;
+			    color: white;
+			    padding-top: 15px;
+			    word-wrap: break-word;
+			    max-width: 780px;
+			    width: 100%;
 				}
 			}
 		}
 	}
+}
 
-	.green-title {
-		&.column{
-			margin-bottom: 10px;
+.green-title {
+	&.column{
+		margin-bottom: 10px;
+	}
+	.Latest_news {
+		opacity: 0.89;
+		background-image: linear-gradient(-180deg, #07B764 0%, #107847 100%);
+		border: 1px solid #107847;
+		box-shadow: 0 3px 4px 0 rgba(0,0,0,0.50);
+		width: 100%;
+		height: 40px;
+		.title {
+			margin-left: 10px;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 16px;
+			color: #FFFFFF;
+			line-height: 40px;
 		}
-		.Latest_news {
-			opacity: 0.89;
-			background-image: linear-gradient(-180deg, #07B764 0%, #107847 100%);
-			border: 1px solid #107847;
-			box-shadow: 0 3px 4px 0 rgba(0,0,0,0.50);
-			width: 100%;
-			height: 40px;
-			.title {
-				margin-left: 10px;
-				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-				font-size: 16px;
-				color: #FFFFFF;
-				line-height: 40px;
+		.ul-first {
+			margin-top: 20px;
+		}
+		.ul-second {
+			margin-top: 20px;
+		}
+	}
+}
+
+.homepage-green-title {
+	margin-bottom: 0;
+	height: 80px;
+	.two-third {
+		margin-left: 0;
+		margin-right: 2%;
+	}
+}
+
+.column_blog_news {
+	.Latest_news:not(.featured) {
+		.photo {
+			width: 35%;
+			border: none !important;
+		}
+
+		.desc {
+			margin-left: 35% !important;
+	  	width: 65% !important;
+
+			h5 {
+				margin: 0;
+
+				a {
+					font-size: 14px !important;
+				}
 			}
-			.ul-first {
-				margin-top: 20px;
-			}
-			.ul-second {
-				margin-top: 20px;
+
+			.post-excerpt {
+				margin: 0;
 			}
 		}
 	}
-	.homepage-green-title {
-		margin-bottom: 0;
-		height: 80px;
-		.two-third {
-			margin-left: 0;
-			margin-right: 2%;
-		}
-	}
 
-	.column_blog_news {
-		.Latest_news:not(.featured) {
+	.Latest_news.featured {
+		.ul-second {
 			.photo {
 				width: 35%;
 				border: none !important;
@@ -107,76 +133,80 @@
 					a {
 						font-size: 14px !important;
 					}
-				}
-
+				}			
+				
 				.post-excerpt {
 					margin: 0;
 				}
 			}
 		}
-
-		.Latest_news.featured {
-			.ul-second {
-				.photo {
-					width: 35%;
-					border: none !important;
-				}
-
-				.desc {
-					margin-left: 35% !important;
-			  	width: 65% !important;
-
-					h5 {
-						margin: 0;
-
-						a {
-							font-size: 14px !important;
-						}
-					}			
-					
-					.post-excerpt {
-						margin: 0;
-					}
-				}
-			}
-		}
 	}
-	.no-margin{
-	    margin: 0;
-		p{
-			margin: 0;
-		}
+}
+
+.no-margin{
+    margin: 0;
+	p{
+		margin: 0;
 	}
-	.bwg_album_extended_div_0{
+}
+
+.bwg_album_extended_div_0{
+	border:none !important;
+	border-spacing: 0px !important;
+	.bwg_album_extended_thumb_div_0, .bwg_album_extended_text_div_0{
 		border:none !important;
-		border-spacing: 0px !important;
-		.bwg_album_extended_thumb_div_0, .bwg_album_extended_text_div_0{
-			border:none !important;
-		}
 	}
+}
 
-	.newsletter {
-		form {
-			padding: 0;
+
+
+.newsletter {
+	#mc4wp-form-1{
+		margin : 0;
+	}
+	form {
+		padding: 0;
+	    margin: 0;
+	    width: 100%;
+
+	    .email-input {
+	    	width: 85% !important;
+			margin: 0;
+			float: left;
+	    	font-size: 14px;
+			text-align: center;
+	    }
+
+	    .btn-subscribe {
+	    	font-size: 14px;
 		    margin: 0;
-		    width: 345px;
-
-		    .email-input {
-		    	font-size: 14px;
-    			text-align: center;
-    			margin-bottom: 10px;
-		    }
-
-		    .btn-subscribe {
-		    	font-size: 14px;
-			    margin: 0;
-			    text-align: center;
-			    color: white;
-			    background-color: #077641;
-			    width: 345px;
-		    }
-		}
+		    text-align: center;
+		    color: white;
+		    width: 15% !important;
+			
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+	    }
 	}
+}
+
+#gal_front_form_0{
+	padding: 0px;
+}
+
+div[id^="bwg_container"] a {
+      float: left;
+    margin: 0 2px 5px 0;
+    border-color: #23A468;
+}
+
+.thu-vien-anh-review{
+	margin-top: 0px;
+}
+
+.post-header{
+	margin-top:10px;
+}
 /* ***********HOMEPAE STYLES - End ***********/
 
 
@@ -197,9 +227,10 @@ em, i {
 
 /* **************ADS STYLES - Start*********/
 .ads-image {
-	.chpcs_foo_content{
-		
-	}
+	&.column, &.columns {
+    	float: left;
+    	margin: 0 1% -15px;
+    }
 }
 
 div[id^="bwg_container"] div[id^="bwg_container"]  .bwg_img_clear {
