@@ -41,17 +41,18 @@
 			margin-bottom: 10px;
 		}
 		.Latest_news {
-			border-bottom: 1px solid #077641;
-			box-shadow: 0 4px 2px -2px #bbbbbb;
+			opacity: 0.89;
+			background-image: linear-gradient(-180deg, #07B764 0%, #107847 100%);
+			border: 1px solid #107847;
+			box-shadow: 0 3px 4px 0 rgba(0,0,0,0.50);
+			width: 100%;
+			height: 40px;
 			.title {
-				width: 150px;
-				font-size: 14px;
-				color: white;
-				background-color: #077641;
-				text-align: center;
-				margin: 0;
-				box-shadow: 0 3px 5px #999999;
-				padding: 5px 0;
+				margin-left: 10px;
+				font-family: Helvetica-Bold;
+				font-size: 16px;
+				color: #FFFFFF;
+				line-height: 40px;
 			}
 			.ul-first {
 				margin-top: 20px;
@@ -285,11 +286,10 @@ div[id^="bwg_container"] div[id^="bwg_container"]  .bwg_img_clear {
 		}
 	}
 }
-.notify-header {
-	margin: 0px 0px 15px 0px;
-}
-.fan-page-header {
-	margin: 0px 0px 15px 0px;
+.notify-header,
+.fan-page-header, 
+.thu-vien-anh-header{
+	margin: 0px 0px 10px 0px;
 }
 #Content {
 	padding-top: 10px;

@@ -69,19 +69,20 @@ textarea {
 }
 
 .green-title .Latest_news {
-	border-bottom: 1px solid #077641;
-	box-shadow: 0 4px 2px -2px #bbb;
+	width: 100%;
+	height: 40px;
+	opacity: .89;
+	border: 1px solid #107847;
+	background-image: linear-gradient(-180deg, #07b764 0%, #107847 100%);
+	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .5);
 }
 
 .green-title .Latest_news .title {
-	font-size: 14px;
-	width: 150px;
-	margin: 0;
-	padding: 5px 0;
-	text-align: center;
-	color: white;
-	background-color: #077641;
-	box-shadow: 0 3px 5px #999;
+	font-family: Helvetica-Bold;
+	font-size: 16px;
+	line-height: 40px;
+	margin-left: 10px;
+	color: #fff;
 }
 
 .green-title .Latest_news .ul-first {
@@ -306,12 +307,10 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 	margin-bottom: 30px;
 }
 
-.notify-header {
-	margin: 0 0 15px 0;
-}
-
-.fan-page-header {
-	margin: 0 0 15px 0;
+.notify-header,
+.fan-page-header,
+.thu-vien-anh-header {
+	margin: 0 0 10px 0;
 }
 
 #Content {
