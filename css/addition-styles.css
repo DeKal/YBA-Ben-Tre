@@ -341,7 +341,11 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 	padding: 0;
 }
 
-.header-stack #Top_bar .menu_wrapper { /*left: -15%;*/ /*position: inherit;*/ /*width: 130%;*/ /*background-image: linear-gradient(-180deg, #FFEA5A 0%, #FCBB35 100%);*/ /*padding-left: 200px;*/
+.header-stack #Top_bar .menu_wrapper {
+	width: 100vw;
+	margin-left: calc(-1 * ((100vw - 100%) / 2));
+	padding-left: calc((100vw - 100%) / 2);
+	background-image: linear-gradient(-180deg, #ffea5a 0%, #fcbb35 100%);
 }
 
 .header-stack #Top_bar .menu > li a:after {
