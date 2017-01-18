@@ -164,6 +164,27 @@ textarea {
 	border: none !important;
 }
 
+.newsletter form {
+	width: 345px;
+	margin: 0;
+	padding: 0;
+}
+
+.newsletter form .email-input {
+	font-size: 14px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.newsletter form .btn-subscribe {
+	font-size: 14px;
+	width: 345px;
+	margin: 0;
+	text-align: center;
+	color: white;
+	background-color: #077641;
+}
+
 /* ***********HOMEPAE STYLES - End ***********/
 
 /* ***********Huy - Giới thiệu YBA Bến Tre - Start ***********/
@@ -273,7 +294,7 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 }
 
 .content_slider.flat.description {
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 }
 
 .content_slider.flat.description ul li { /***** height width of image slider *****/
