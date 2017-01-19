@@ -191,6 +191,8 @@ textarea {
 	margin: 0;
 }
 
+/************Photo Gallery - Start *****************/
+
 .bwg_album_extended_div_0 {
 	border-spacing: 0 !important;
 	border: none !important;
@@ -200,6 +202,32 @@ textarea {
 .bwg_album_extended_div_0 .bwg_album_extended_text_div_0 {
 	border: none !important;
 }
+
+div[id^='bwg_container'] a {
+	float: left;
+	margin: 0 2px 5px 0;
+	border-color: #23a468;
+}
+
+.mcb-wrap {
+	position: static;
+}
+
+div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
+	max-width: 100% !important;
+	max-height: 100% !important;
+	padding: 0 !important;
+}
+
+.thu-vien-anh-review {
+	margin-top: 0;
+}
+
+#gal_front_form_0 {
+	padding: 0;
+}
+
+/************Photo Gallery - End *****************/
 
 .newsletter #mc4wp-form-1 {
 	margin: 0;
@@ -226,24 +254,6 @@ textarea {
 	text-align: center;
 	color: white;
 	background-color: #07b764;
-}
-
-#gal_front_form_0 {
-	padding: 0;
-}
-
-div[id^='bwg_container'] a {
-	float: left;
-	margin: 0 2px 5px 0;
-	border-color: #23a468;
-}
-
-.thu-vien-anh-review {
-	margin-top: 0;
-}
-
-.post-header {
-	margin-top: 10px;
 }
 
 /* ***********HOMEPAE STYLES - End ***********/
@@ -273,10 +283,12 @@ i {
 	margin: 0 1% -15px;
 }
 
-div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
-	max-width: 100% !important;
-	max-height: 100% !important;
-	padding: 0 !important;
+.ads-image img {
+	height: 100% !important;
+}
+
+.ads-image td div:first-child {
+	height: 98px !important;
 }
 
 /* **************ADS STYLES - End*********/
@@ -330,6 +342,12 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 12px;
 	color: #4a4a4a;
+}
+
+/******************post header ***************/
+
+.post-header {
+	margin-top: 10px;
 }
 
 /*****************************YBA home event blog ******************************/
