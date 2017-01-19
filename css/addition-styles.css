@@ -106,24 +106,6 @@ textarea {
 	color: #fff;
 }
 
-.green-title .Latest_news .ul-first {
-	margin-top: 20px;
-}
-
-.green-title .Latest_news .ul-second {
-	margin-top: 20px;
-}
-
-.homepage-green-title {
-	height: 80px;
-	margin-bottom: 0;
-}
-
-.homepage-green-title .two-third {
-	margin-right: 2%;
-	margin-left: 0;
-}
-
 .column_blog_news .Latest_news:not(.featured) .photo {
 	width: 35%;
 	border: none !important;
@@ -166,6 +148,39 @@ textarea {
 
 .column_blog_news .Latest_news.featured .ul-second .desc .post-excerpt {
 	margin: 0;
+}
+
+.yba-home-event.green-title .Latest_news .ul-first {
+	width: 30%;
+}
+
+.yba-home-event.green-title .Latest_news .ul-second {
+	width: 68%;
+}
+
+.yba-home-event.green-title .Latest_news .ul-second li {
+	min-height: 150px;
+	margin: 0 0 10px;
+}
+
+.yba-home-event.green-title .Latest_news .ul-second .photo {
+	width: 190px !important;
+	height: 100%;
+}
+
+.yba-home-event.green-title .Latest_news .ul-second .desc {
+	width: 64% !important;
+	margin-left: 38% !important;
+}
+
+.homepage-green-title {
+	height: 80px;
+	margin-bottom: 0;
+}
+
+.homepage-green-title .two-third {
+	margin-right: 2%;
+	margin-left: 0;
 }
 
 .no-margin {
