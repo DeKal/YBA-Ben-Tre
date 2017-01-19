@@ -227,6 +227,25 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 	padding: 0;
 }
 
+.bwg_back_0 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	float: right !important;
+}
+
+.bwg_lightbox_0 img {
+	width: 100% !important;
+	margin: 4px !important;
+	padding: 0 !important;
+}
+
+.bwg_title_spun1_0 {
+	opacity: .6;
+	background-color: black !important;
+}
+
+#bwg_container1_0 #bwg_container2_0 .bwg_album_thumbnails_0 { /*margin-top: -4px;*/
+}
+
 /************Photo Gallery - End *****************/
 
 .newsletter #mc4wp-form-1 {
