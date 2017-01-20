@@ -228,6 +228,10 @@ textarea {
 	background-color: #07b764;
 }
 
+.newsletter form .mc4wp-response {
+	position: absolute;
+}
+
 #gal_front_form_0 {
 	padding: 0;
 }
