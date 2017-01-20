@@ -33,6 +33,12 @@ textarea {
 	outline: none;
 }
 
+.wpcf7 {
+	padding: 20px;
+	padding-bottom: 100px;
+	background: #f0f0f0;
+}
+
 /**
  * Layout styling
  */
