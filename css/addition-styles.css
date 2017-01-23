@@ -33,12 +33,6 @@ textarea {
 	outline: none;
 }
 
-.wpcf7 {
-	padding: 20px;
-	padding-bottom: 100px;
-	background: #f0f0f0;
-}
-
 /**
  * Layout styling
  */
@@ -309,7 +303,7 @@ i {
 }
 
 .ads-image img {
-	height: 100% !important;
+	height: 98px !important;
 }
 
 .ads-image td div:first-child {
@@ -421,6 +415,16 @@ i {
 .thu-vien-anh-header {
 	margin: 0 0 10px 0;
 }
+
+/*****Form style css - Start *******/
+
+.wpcf7 {
+	padding: 20px;
+	padding-bottom: 100px;
+	background: #f0f0f0;
+}
+
+/*****Form style css - End *******/
 
 /**
  * Header styling
