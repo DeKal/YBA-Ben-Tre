@@ -268,14 +268,6 @@ div[id^="bwg_container"] div[id^="bwg_container"]  .bwg_img_clear {
 	width: 100% !important;
 }
 
-bwg_title_spun2_0{
-
-}
-
-#bwg_container1_0 #bwg_container2_0 .bwg_album_thumbnails_0{
-	/*margin-top: -4px;*/
-	/*float: left;*/
-}
 /************Photo Gallery - End *****************/
 
 .newsletter {
@@ -304,6 +296,9 @@ bwg_title_spun2_0{
 			background-color: #07B764;
 			//background-size: 100% 100%;
 			//background-repeat: no-repeat;
+	    }
+	    .mc4wp-response {
+	    	position: absolute;
 	    }
 	}
 }
