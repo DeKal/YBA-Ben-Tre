@@ -29,7 +29,7 @@ input,
 button,
 select,
 textarea {
-	font-family: 'gotham';
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	outline: none;
 }
 
@@ -68,6 +68,10 @@ textarea {
 	color: black;
 }
 
+#Content img {
+	border: 1px solid #2b8c5f;
+}
+
 /* ***********ALL PAGES LAYOUT - End ***********/
 
 /* ***********HOMEPAE STYLES - Start ***********/
@@ -76,13 +80,17 @@ textarea {
 	position: absolute;
 	top: 402px;
 	width: 100%;
-	max-width: 780px;
+	max-width: 750px;
 	height: 80px;
 	padding-top: 15px;
 	word-wrap: break-word;
-	opacity: .7;
+	opacity: .9;
 	color: white;
 	background: black;
+}
+
+.caroufredsel_wrapper .content_slider_ul li a img {
+	max-height: 480px !important;
 }
 
 .green-title.column {
@@ -104,6 +112,27 @@ textarea {
 	line-height: 40px;
 	margin-left: 10px;
 	color: #fff;
+}
+
+.brown-title.column {
+	margin-bottom: 10px;
+}
+
+.brown-title .Latest_news {
+	width: 100%;
+	height: 40px;
+}
+
+.brown-title .Latest_news .title {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 40px;
+	margin-bottom: 5px;
+	letter-spacing: 0;
+	background: linear-gradient(-180deg, #f60000 0%, #820000 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .column_blog_news .Latest_news:not(.featured) .photo {
@@ -154,12 +183,20 @@ textarea {
 	width: 30%;
 }
 
+.yba-home-event.green-title .Latest_news .ul-first .post-excerpt {
+	margin: 0 0 5px;
+}
+
+.yba-home-event.green-title .Latest_news .ul-first li .desc h4 {
+	margin: 0;
+}
+
 .yba-home-event.green-title .Latest_news .ul-second {
 	width: 68%;
 }
 
 .yba-home-event.green-title .Latest_news .ul-second li {
-	min-height: 150px;
+	height: 130px;
 	margin: 0 0 10px;
 }
 
@@ -171,6 +208,10 @@ textarea {
 .yba-home-event.green-title .Latest_news .ul-second .desc {
 	width: 64% !important;
 	margin-left: 38% !important;
+}
+
+.yba-home-project .Latest_news ul li {
+	margin: 0 0 19px;
 }
 
 .homepage-green-title {
@@ -203,6 +244,10 @@ textarea {
 	border: none !important;
 }
 
+#bwg_container1_0 #bwg_container2_0 .bwg_standart_thumb_spun1_0 {
+	margin: 5px !important;
+}
+
 div[id^='bwg_container'] a {
 	float: left;
 	margin: 0 2px 5px 0;
@@ -214,8 +259,9 @@ div[id^='bwg_container'] a {
 }
 
 div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
-	max-width: 100% !important;
-	max-height: 100% !important;
+	max-width: 99% !important;
+	max-height: 98% !important;
+	margin: 0 !important;
 	padding: 0 !important;
 }
 
@@ -235,16 +281,19 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 
 .bwg_lightbox_0 img {
 	width: 100% !important;
-	margin: 4px !important;
+	margin: 0 !important;
 	padding: 0 !important;
 }
 
 .bwg_title_spun1_0 {
-	opacity: .6;
+	width: 100% !important;
+	height: 30% !important;
+	margin-top: 59%;
+	opacity: .7 !important;
 	background-color: black !important;
 }
 
-#bwg_container1_0 #bwg_container2_0 .bwg_album_thumbnails_0 { /*margin-top: -4px;*/
+#bwg_container1_0 #bwg_container2_0 .bwg_album_thumbnails_0 { /*margin-top: -4px;*/ /*float: left;*/
 }
 
 /************Photo Gallery - End *****************/
@@ -281,7 +330,7 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 /* ***********Huy - Giới thiệu YBA Bến Tre - Start ***********/
 
 #static-page-content {
-	font-size: 12px;
+	font-size: 13px;
 	margin-top: 0;
 	color: #000;
 }
@@ -305,6 +354,7 @@ i {
 
 .ads-image img {
 	height: 98px !important;
+	border: none !important;
 }
 
 .ads-image td div:first-child {
@@ -353,6 +403,12 @@ i {
 /*************************** remove comment and dates post box under post ************************/
 
 .desc_footer {
+	padding-top: 2px;
+}
+
+.desc_footer .icon-comment-empty-fa,
+.desc_footer .button-love,
+.desc_footer a {
 	display: none;
 }
 
@@ -459,6 +515,10 @@ i {
 	background-image: linear-gradient(-180deg, #ffea5a 0%, #fcbb35 100%);
 }
 
+.header-stack #Top_bar .menu_wrapper #menu {
+	padding-left: 20px;
+}
+
 .header-stack #Top_bar .menu > li a:after {
 	background: #087441 !important;
 }
@@ -467,6 +527,7 @@ i {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 600;
 	line-height: 37px;
+	padding: 0 30px;
 	border: none;
 }
 
@@ -482,6 +543,7 @@ i {
 
 .header-stack .secondary_menu_wrapper {
 	position: absolute;
+	top: 10px !important;
 	left: -50%;
 	margin: 0;
 	margin-right: -50%;
@@ -489,7 +551,7 @@ i {
 
 .header-stack .secondary_menu_wrapper #yba-header-title img {
 	max-width: 685px;
-	max-height: 109px;
+	max-height: 127px;
 }
 
 .header-stack .center {

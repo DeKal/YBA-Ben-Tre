@@ -30,6 +30,9 @@
 	    	}
 	    }
 	}
+	img{
+		border: 1px solid #2B8C5F;
+	}
 }
 /* ***********ALL PAGES LAYOUT - End ***********/
 
@@ -40,17 +43,21 @@
 			a {
 				.title {
 					position: absolute;
-			    top: 402px;
-			    height: 80px;
-			    background: black;
-			    opacity: .7;
-			    color: white;
-			    padding-top: 15px;
-			    word-wrap: break-word;
-			    max-width: 780px;
-			    width: 100%;
+				    top: 402px;
+				    height: 80px;
+				    background: black;
+				    opacity: .9;
+				    color: white;
+				    padding-top: 15px;
+				    word-wrap: break-word;
+				    max-width: 750px;
+				    width: 100%;
+				}
+				img{
+					max-height: 480px !important;
 				}
 			}
+
 		}
 	}
 }
@@ -72,6 +79,26 @@
 			font-size: 16px;
 			color: #FFFFFF;
 			line-height: 40px;
+		}
+	}
+}
+.brown-title{
+	&.column{
+		margin-bottom: 10px;
+	}
+	.Latest_news {
+		width: 100%;
+		height: 40px;
+		.title {
+		    margin-bottom: 5px;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			line-height: 40px;
+			font-size: 18px;
+			background: linear-gradient(-180deg, #F60000 0%, #820000 100%);
+			-webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+			font-weight: bold;
+			letter-spacing: 0;
 		}
 	}
 }
@@ -109,7 +136,7 @@
 
 			.desc {
 				margin-left: 35% !important;
-		  	width: 65% !important;
+		  		width: 65% !important;
 
 				h5 {
 					margin: 0;
@@ -133,11 +160,19 @@
 			.ul-first {
 				width: 30%;
 	    		
+	    		.post-excerpt{
+	    			margin: 0px 0 5px;
+	    		}
+	    		li{
+	    			.desc h4 {
+    					margin: 0px;
+					}
+	    		}
 			}
 			.ul-second {
 				width:68%;
 				li{
-					min-height: 150px;
+					height: 130px;
 	    			margin: 0 0 10px;
 				}
 				.photo{
@@ -151,6 +186,14 @@
 			}
 		}
 	}
+}
+.yba-home-project{
+	.Latest_news ul li {
+	    margin: 0 0 19px;
+	}
+}
+.yba-business-corner{
+	
 }
 .homepage-green-title {
 	margin-bottom: 0;
@@ -178,19 +221,25 @@
 		border:none !important;
 	}
 }
+#bwg_container1_0 #bwg_container2_0 .bwg_standart_thumb_spun1_0 {
+    
+    margin: 5px !important;
+    
+}
 div[id^="bwg_container"] a {
     float: left;
     margin: 0 2px 5px 0;
     border-color: #23A468;
 }
 .mcb-wrap{
-position: static;
+	position: static;
 }
 
 div[id^="bwg_container"] div[id^="bwg_container"]  .bwg_img_clear {
-	max-height: 100% !important;
-	max-width: 100% !important;
-	padding: 0 !important;
+	max-width: 99% !important;
+    max-height: 98% !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }  
 .thu-vien-anh-review{
 	margin-top: 0px;
@@ -207,15 +256,26 @@ div[id^="bwg_container"] div[id^="bwg_container"]  .bwg_img_clear {
 }
 .bwg_lightbox_0 img{
 	width: 100% !important;
-	margin: 4px !important;
+	margin: 0 !important;
 	padding :0 !important;
 }
 
 .bwg_title_spun1_0{
+    margin-top: 59%;
 	background-color: black!important;
-	opacity: 0.6;
+	opacity: 0.7!important;
+	height:30%!important;
+	width: 100% !important;
 }
 
+bwg_title_spun2_0{
+
+}
+
+#bwg_container1_0 #bwg_container2_0 .bwg_album_thumbnails_0{
+	/*margin-top: -4px;*/
+	/*float: left;*/
+}
 /************Photo Gallery - End *****************/
 
 .newsletter {
@@ -245,10 +305,6 @@ div[id^="bwg_container"] div[id^="bwg_container"]  .bwg_img_clear {
 			//background-size: 100% 100%;
 			//background-repeat: no-repeat;
 	    }
-
-	    .mc4wp-response {
-	    	position: absolute;
-	    }
 	}
 }
 
@@ -262,7 +318,7 @@ div[id^="bwg_container"] div[id^="bwg_container"]  .bwg_img_clear {
 
 #static-page-content {
 	margin-top: 0;
-	font-size: 12px;
+	font-size: 13px;
 	color: #000000;
 }
 em, i {
@@ -281,6 +337,7 @@ em, i {
     }
     img{
 		height: 98px!important;
+		border: none !important;
 	}
 	td div:first-child { 
 	   height: 98px !important;
@@ -333,8 +390,12 @@ em, i {
 }
 /*************************** remove comment and dates post box under post ************************/
 .desc_footer {
-	display: none;
+	padding-top: 2px;
+	.icon-comment-empty-fa, .button-love, a{
+		display: none;
+	}
 }
+
 /*************************post summary ***************************/
 .post-excerpt {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
