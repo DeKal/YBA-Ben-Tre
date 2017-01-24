@@ -169,6 +169,8 @@
 	}
 }
 
+
+/************Photo Gallery - Start *****************/
 .bwg_album_extended_div_0{
 	border:none !important;
 	border-spacing: 0px !important;
@@ -176,8 +178,52 @@
 		border:none !important;
 	}
 }
+div[id^="bwg_container"] a {
+    float: left;
+    margin: 0 2px 5px 0;
+    border-color: #23A468;
+}
+.mcb-wrap{
+position: static;
+}
 
+div[id^="bwg_container"] div[id^="bwg_container"]  .bwg_img_clear {
+	max-height: 100% !important;
+	max-width: 100% !important;
+	padding: 0 !important;
+}  
+.thu-vien-anh-review{
+	margin-top: 0px;
+}
 
+#gal_front_form_0{
+	padding: 0px;
+	margin-left: 15px;
+}
+
+.bwg_back_0{
+	float:right !important;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.bwg_lightbox_0 img{
+	width: 100% !important;
+	margin: 4px !important;
+	padding :0 !important;
+}
+
+.bwg_title_spun1_0{
+	background-color: black!important;
+	opacity: 0.6;
+}
+
+bwg_title_spun2_0{
+
+}
+
+#bwg_container1_0 #bwg_container2_0 .bwg_album_thumbnails_0{
+	/*margin-top: -4px;*/
+}
+/************Photo Gallery - End *****************/
 
 .newsletter {
 	#mc4wp-form-1{
@@ -213,23 +259,9 @@
 	}
 }
 
-#gal_front_form_0{
-	padding: 0px;
-}
 
-div[id^="bwg_container"] a {
-    float: left;
-    margin: 0 2px 5px 0;
-    border-color: #23A468;
-}
 
-.thu-vien-anh-review{
-	margin-top: 0px;
-}
 
-.post-header{
-	margin-top:10px;
-}
 /* ***********HOMEPAE STYLES - End ***********/
 
 
@@ -254,13 +286,15 @@ em, i {
     	float: left;
     	margin: 0 1% -15px;
     }
+    img{
+		height: 98px!important;
+	}
+	td div:first-child { 
+	   height: 98px !important;
+	}
 }
 
-div[id^="bwg_container"] div[id^="bwg_container"]  .bwg_img_clear {
-	max-height: 100% !important;
-	max-width: 100% !important;
-	padding: 0 !important;
-}  
+
 /* **************ADS STYLES - End*********/
 
 
@@ -314,6 +348,10 @@ div[id^="bwg_container"] div[id^="bwg_container"]  .bwg_img_clear {
 	font-size: 12px;
 	color: #4A4A4A;
 }
+/******************post header ***************/
+.post-header{
+	margin-top:10px;
+}
 
 /*****************************YBA home event blog ******************************/
 /* Blog header*/
@@ -365,3 +403,12 @@ div[id^="bwg_container"] div[id^="bwg_container"]  .bwg_img_clear {
 	margin: 0px 0px 10px 0px;
 }
 
+/*****Form style css - Start *******/
+.wpcf7 {
+ 	background: #f0f0f0;
+ 	padding: 20px;
+	padding-bottom: 100px;
+}
+
+
+/*****Form style css - End *******/
