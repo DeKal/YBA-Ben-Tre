@@ -82,6 +82,16 @@
 		}
 	}
 }
+.brown-title-text-style{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 40px;
+	font-size: 18px;
+	background: linear-gradient(-180deg, #F60000 0%, #820000 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	font-weight: bold;
+	letter-spacing: 0;
+}
 .brown-title{
 	&.column{
 		margin-bottom: 10px;
@@ -91,19 +101,19 @@
 		height: 40px;
 		.title {
 		    margin-bottom: 5px;
-			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-			line-height: 40px;
-			font-size: 18px;
-			background: linear-gradient(-180deg, #F60000 0%, #820000 100%);
-			-webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-			font-weight: bold;
-			letter-spacing: 0;
+		    @extend .brown-title-text-style;
 		}
 	}
 }
+
+
 .column_blog_news {
 	.Latest_news:not(.featured) {
+		.category-tu-sach-doanh-nhan{
+			.photo img{
+				max-height: 150px;
+			}
+		}
 		.photo {
 			width: 35%;
 			border: none !important;
@@ -157,6 +167,9 @@
 .yba-home-event{
 	&.green-title {
 		.Latest_news {
+			ul li.has-post-thumbnail .desc {
+			    padding-left: 18px!important;
+			}
 			.ul-first {
 				width: 30%;
 	    		
@@ -308,6 +321,81 @@ div[id^="bwg_container"] div[id^="bwg_container"]  .bwg_img_clear {
 
 /* ***********HOMEPAE STYLES - End ***********/
 
+/**************POST STYLES - Start *************/
+
+.section-post-header{
+	.single-photo-wrapper{
+		display:none !important;
+	}
+	.post-header{
+		.title_wrapper{
+			.entry-title{
+				margin-bottom: 5px;
+			
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+				line-height: 40px;
+				font-size: 20px;
+				background: linear-gradient(-180deg, #F60000 0%, #820000 100%);
+				-webkit-background-clip: text;
+			    -webkit-text-fill-color: transparent;
+				font-weight: bold;
+				letter-spacing: 0;
+			}
+		}
+	}
+	.post-nav{
+	    position: absolute;
+	    width: auto!important;
+	    display: inherit;
+	    right: 0;
+	}
+
+}
+
+.has-post-thumbnail img.wp-post-image {
+    display: block !important; 
+}
+
+.section-post-related{ 
+	margin-top: 40px;
+	.post-related{
+		.image_frame {
+	    	margin-left: 0px;
+
+	    	img{
+	    		max-height: 250px;
+	    	}
+		}	
+		 a.button {
+	    
+	    	margin-bottom: 0;
+	    	margin-left: 25%;
+		}
+	} 
+}
+.section-related-adjustment {
+	h4{
+		@extend .brown-title-text-style;
+
+	}
+	.desc h4{
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		line-height: 25px;
+		font-size: 18px;
+		background: black;
+		-webkit-background-clip: text;
+	    -webkit-text-fill-color: transparent;
+		font-weight: bold;
+		text-align: center;
+		letter-spacing: 0;
+	}
+}
+.hr_color{
+	display:none;
+}
+
+
+/**************POST STYLES - End *************/
 
 /* ***********Huy - Giới thiệu YBA Bến Tre - Start ***********/
 

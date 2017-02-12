@@ -114,6 +114,19 @@ textarea {
 	color: #fff;
 }
 
+.brown-title-text-style,
+.brown-title .Latest_news .title,
+.section-related-adjustment h4 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 40px;
+	letter-spacing: 0;
+	background: linear-gradient(-180deg, #f60000 0%, #820000 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 .brown-title.column {
 	margin-bottom: 10px;
 }
@@ -124,15 +137,11 @@ textarea {
 }
 
 .brown-title .Latest_news .title {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 18px;
-	font-weight: bold;
-	line-height: 40px;
 	margin-bottom: 5px;
-	letter-spacing: 0;
-	background: linear-gradient(-180deg, #f60000 0%, #820000 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+}
+
+.column_blog_news .Latest_news:not(.featured) .category-tu-sach-doanh-nhan .photo img {
+	max-height: 150px;
 }
 
 .column_blog_news .Latest_news:not(.featured) .photo {
@@ -177,6 +186,10 @@ textarea {
 
 .column_blog_news .Latest_news.featured .ul-second .desc .post-excerpt {
 	margin: 0;
+}
+
+.yba-home-event.green-title .Latest_news ul li.has-post-thumbnail .desc {
+	padding-left: 18px !important;
 }
 
 .yba-home-event.green-title .Latest_news .ul-first {
@@ -293,9 +306,6 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 	background-color: black !important;
 }
 
-#bwg_container1_0 #bwg_container2_0 .bwg_album_thumbnails_0 { /*margin-top: -4px;*/ /*float: left;*/
-}
-
 /************Photo Gallery - End *****************/
 
 .newsletter #mc4wp-form-1 {
@@ -325,7 +335,75 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 	background-color: #07b764;
 }
 
+.newsletter form .mc4wp-response {
+	position: absolute;
+}
+
 /* ***********HOMEPAE STYLES - End ***********/
+
+/**************POST STYLES - Start *************/
+
+.section-post-header .single-photo-wrapper {
+	display: none !important;
+}
+
+.section-post-header .post-header .title_wrapper .entry-title {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 40px;
+	margin-bottom: 5px;
+	letter-spacing: 0;
+	background: linear-gradient(-180deg, #f60000 0%, #820000 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.section-post-header .post-nav {
+	position: absolute;
+	right: 0;
+	display: inherit;
+	width: auto !important;
+}
+
+.has-post-thumbnail img.wp-post-image {
+	display: block !important;
+}
+
+.section-post-related {
+	margin-top: 40px;
+}
+
+.section-post-related .post-related .image_frame {
+	margin-left: 0;
+}
+
+.section-post-related .post-related .image_frame img {
+	max-height: 250px;
+}
+
+.section-post-related .post-related a.button {
+	margin-bottom: 0;
+	margin-left: 25%;
+}
+
+.section-related-adjustment .desc h4 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 25px;
+	text-align: center;
+	letter-spacing: 0;
+	background: black;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.hr_color {
+	display: none;
+}
+
+/**************POST STYLES - End *************/
 
 /* ***********Huy - Giới thiệu YBA Bến Tre - Start ***********/
 
@@ -543,7 +621,7 @@ i {
 
 .header-stack .secondary_menu_wrapper {
 	position: absolute;
-	top: 10px !important;
+	top: 25px !important;
 	left: -50%;
 	margin: 0;
 	margin-right: -50%;
