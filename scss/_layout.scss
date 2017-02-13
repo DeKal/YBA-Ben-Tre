@@ -167,9 +167,6 @@
 .yba-home-event{
 	&.green-title {
 		.Latest_news {
-			ul li.has-post-thumbnail .desc {
-			    padding-left: 18px!important;
-			}
 			.ul-first {
 				width: 30%;
 	    		
@@ -187,6 +184,9 @@
 				li{
 					height: 130px;
 	    			margin: 0 0 10px;
+	    			&.has-post-thumbnail .desc {
+			    		padding-left: 18px!important;
+					}
 				}
 				.photo{
 					width: 190px !important;

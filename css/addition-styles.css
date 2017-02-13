@@ -188,10 +188,6 @@ textarea {
 	margin: 0;
 }
 
-.yba-home-event.green-title .Latest_news ul li.has-post-thumbnail .desc {
-	padding-left: 18px !important;
-}
-
 .yba-home-event.green-title .Latest_news .ul-first {
 	width: 30%;
 }
@@ -211,6 +207,10 @@ textarea {
 .yba-home-event.green-title .Latest_news .ul-second li {
 	height: 130px;
 	margin: 0 0 10px;
+}
+
+.yba-home-event.green-title .Latest_news .ul-second li.has-post-thumbnail .desc {
+	padding-left: 18px !important;
 }
 
 .yba-home-event.green-title .Latest_news .ul-second .photo {
