@@ -4,99 +4,170 @@
 
 /***********    HUY HEADER - Start ***********/
 .header-stack {
-#Top_bar {
-  background-image: linear-gradient(-180deg, #149F6D 0%, #107847 100%);
-  box-shadow: none !important;
-
-
-  .logo {
-    margin-bottom: 40px;
-    border-bottom-width: 0;
-
-    #logo, .logo-main{
-      padding: 0px;
-      height: 127px;
-      width: 98px;
-      margin-left: 100px;
-    }
-  }
-  .menu_wrapper{
-    width: 100vw;
-    margin-left: calc(-1 * ((100vw - 100%) / 2));
-    padding-left: calc((100vw - 100%) / 2);
-    background-image: linear-gradient(-180deg, #FFEA5A 0%, #FCBB35 100%);
-    #menu{
-        padding-left: 20px;
-    }
-  }
-  .menu {
-    >li {
-      a {
-        &:after {
-          background: #087441 !important;
-        }
-      }
-      >a {
-        span {
-          &:not(.description) {
-            line-height: 37px;
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-            font-weight: 600;
-            border: none;
-            padding: 0px 30px;
-          }
-        }
-      }
-    }
-    >.current-menu-item, >.current_page_item, >.current-menu-parent, >.current-page-parent, >.current-menu-ancestor, >.current-page-ancestor, >.hover {
-      >a {
-        color: #087441 !important;
-      }
-    }
-  }
-  box-shadow: 0 4px 2px -2px rgba(128, 128, 128, 0.56);
-}
-
-  .secondary_menu_wrapper {
-    //margin-top: 35px;
-    position: absolute;
-    margin: 0;
-    left: -50%;
-    margin-right: -50%;
-    top: 25px !important;
-
-    #yba-header-title img{
-      max-width: 685px;
-      max-height: 127px;
-    }
-  }
   .center {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
   }
-  .green {
-    color: #087441;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: bold;
+  #Top_bar {
+    background-image: linear-gradient(-180deg, #149F6D 0%, #107847 100%);
+    box-shadow: none !important;
+
+
+    .logo {
+      margin-bottom: 40px;
+      border-bottom-width: 0;
+
+      #logo, .logo-main{
+        padding: 0px;
+        height: 127px;
+        width: 98px;
+        margin-left: 100px;
+      }
+    }
+    .menu_wrapper{
+      width: 100vw;
+      margin-left: calc(-1 * ((100vw - 100%) / 2));
+      padding-left: calc((100vw - 100%) / 2);
+      background-image: linear-gradient(-180deg, #FFEA5A 0%, #FCBB35 100%);
+      #menu{
+          padding-left: 20px;
+      }
+    }
+    .menu {
+      >li {
+        a {
+          &:after {
+            background: #087441 !important;
+          }
+        }
+        >a {
+          span {
+            &:not(.description) {
+              line-height: 37px;
+              font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+              font-weight: 600;
+              border: none;
+              padding: 0px 30px;
+            }
+          }
+        }
+      }
+      >.current-menu-item, >.current_page_item, >.current-menu-parent, >.current-page-parent, >.current-menu-ancestor, >.current-page-ancestor, >.hover {
+        >a {
+          color: #087441 !important;
+        }
+      }
+    }
+    box-shadow: 0 4px 2px -2px rgba(128, 128, 128, 0.56);
   }
-  .red {
-    color: #ed1c24;
+
+  @media screen and (min-width: 1500px) and (max-width:3000px) {
+    .secondary_menu_wrapper {
+      //margin-top: 35px;
+      position: absolute;
+      margin: 0;
+      left: -15%;
+      margin-right: -17%;
+      top: 0px !important;
+
+    }
   }
-  #header-title-1 {
-    color: #087441;
-    font-size: 24px;
-    margin-bottom: 5px;
+  @media screen and (min-width: 1248px) and (max-width:1499px) {
+    .secondary_menu_wrapper {
+      //margin-top: 35px;
+      position: absolute;
+      margin: 0;
+      left: -14%;
+      margin-right: -11%;
+      top: 0px !important;
+    }
   }
-  #header-title-2 {
-    color: #087441;
-    font-size: 14px;
-    margin-bottom: 10px;
+
+  @media screen and (min-width: 1025px) and (max-width:1247px) {
+    .secondary_menu_wrapper {
+      //margin-top: 35px;
+      position: absolute;
+      margin: 0;
+      left: -16%;
+      margin-right: -19%;
+      top: 0px !important;
+    }
   }
-  #header-title-3 {
-    color: #ed1c24;
-    font-size: 24px;
-    font-weight: bold;
+
+  @media screen and (min-width: 880px) and (max-width:1024px) {
+    .secondary_menu_wrapper {
+      //margin-top: 35px;
+      position: absolute;
+      margin: 0;
+      left: -10%;
+      margin-right: -8%;
+      top: 0px !important;
+
+      img{
+        height: 130px!important;
+      }
+    }
+    .logo {
+        height:90px!important;
+    }
+    .header-stack #Top_bar{
+      a.responsive-menu-toggle i {
+        font-size: 18px;
+        line-height: 24px;
+      }
+      .menu_wrapper{
+        height:45px;
+      }
+    }  
   }
+  @media screen and (min-width: 640px) and (max-width:879px) {
+    .secondary_menu_wrapper {
+      //margin-top: 35px;
+      position: absolute;
+      margin: 0;
+      left: -15%;
+      margin-right: -17%;
+      top: 0px !important;
+
+      img{
+        height: 115px!important;
+      }
+    }
+    .logo {
+        height:75px!important;
+    }
+    .header-stack #Top_bar{
+      a.responsive-menu-toggle i {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      .menu_wrapper{
+        height:40px;
+      }
+    }  
+  }
+  @media only screen and (max-width: 767px){
+    .secondary_menu_wrapper {
+        display:block !important;
+        position:absolute;
+        top: 0!important;
+        left: -25%;
+        margin: 0;
+        margin-right: -13%;
+
+        img {
+          height: 80px!important
+        }
+    }
+
+    .logo {
+        height: 40px!important
+    }
+  }
+
 }
+
+
+
 /***********    HUY HEADER - End ***********/
 
