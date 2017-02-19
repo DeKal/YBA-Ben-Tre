@@ -52,7 +52,7 @@ textarea {
 }
 
 #Content .section_wrapper .wrap.one .news-ticker-headline {
-	width: 110vw;
+	width: 110vw !important;
 	height: 25px;
 	margin-bottom: 10px;
 	margin-left: calc(-1 * ((100vw - 100%) / 2));
@@ -76,12 +76,21 @@ textarea {
 
 /* ***********HOMEPAE STYLES - Start ***********/
 
+.caroufredsel_wrapper .content_slider_ul li a {
+	position: relative;
+	overflow: overlay;
+	overflow: hidden;
+	height: 460px;
+}
+
 .caroufredsel_wrapper .content_slider_ul li a .title {
+	line-height: 35px;
 	position: absolute;
-	top: 402px;
-	width: 100%;
-	max-width: 750px;
-	height: 80px;
+	bottom: 0;
+	width: 96%;
+	height: 85px;
+	margin: 0;
+	padding: 0 2%;
 	padding-top: 15px;
 	word-wrap: break-word;
 	opacity: .9;
@@ -533,7 +542,7 @@ i {
 }
 
 .content_slider.flat.description {
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 }
 
 .content_slider.flat.description ul li { /***** height width of image slider *****/
@@ -826,55 +835,16 @@ i {
 
 @media only screen and (max-width: 767px) {
 
-#Content .section_wrapper .news-ticker-headline {
-	width: 110vw !important;
-}
-
-#facebook ._2p3a {
-	width: 100% !important;
-}
-
-.yba-home-event.green-title .Latest_news .ul-first {
-	width: 100%;
-}
-
-.yba-home-event.green-title .Latest_news .ul-first .post-excerpt {
-	margin: 0 0 5px;
-}
-
-.yba-home-event.green-title .Latest_news .ul-first li .desc h4 {
-	margin: 0;
-}
-
-.yba-home-event.green-title .Latest_news .ul-second {
-	width: 100%;
+#Content .section_wrapper {
+	max-width: calc(100% - 30px) !important;
 }
 
 .yba-home-event.green-title .Latest_news .ul-second li {
 	height: 150px;
-	margin: 0 0 10px;
-}
-
-.yba-home-event.green-title .Latest_news .ul-second li.has-post-thumbnail .desc {
-	padding-left: 18px !important;
 }
 
 .yba-home-event.green-title .Latest_news .ul-second .photo {
-	width: 150px !important;
-	height: 100%;
-}
-
-.yba-home-event.green-title .Latest_news .ul-second .desc {
-	width: 64% !important;
-	margin-left: 38% !important;
-}
-
-.newsletter form .email-input {
-	width: 80% !important;
-}
-
-.newsletter form .btn-subscribe {
-	width: 20% !important;
+	width: 130px !important;
 }
 
 .header-stack .secondary_menu_wrapper {
@@ -892,6 +862,16 @@ i {
 
 .header-stack .logo {
 	height: 40px !important;
+}
+
+}
+
+@media only screen and (max-width: 479px) {
+
+.caroufredsel_wrapper .content_slider_ul li a .title {
+	line-height: 25px;
+	height: 60px;
+	padding-top: 10px;
 }
 
 }

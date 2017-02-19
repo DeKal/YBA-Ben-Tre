@@ -9,11 +9,14 @@
 	.section_wrapper {
     max-width: 1140px;
 
+	@media only screen and (max-width: 767px) {
+		max-width: calc(100% - 30px)!important;
+	}
 	    .wrap.one {
 	    	width: 98%;
 
 	    	.news-ticker-headline {
-	    		width: 110vw;
+	    		width: 110vw !important;
 			    margin-left: calc(-1 * ((100vw - 100%) / 2));
 			    background-image: linear-gradient(-180deg, rgba(242, 228, 183, 0.39) 0%, rgba(254, 221, 80, 0.39) 100%);
 			    color: black;
@@ -41,18 +44,31 @@
 	.content_slider_ul {
 		li {
 			a {
+			    height: 460px;
+				overflow: overlay;
+			    position: relative;
+				overflow: hidden;
+
 				.title {
 					position: absolute;
-				    top: 402px;
-				    height: 80px;
+				    height: 85px;
 				    background: black;
 				    opacity: .9;
 				    color: white;
 				    padding-top: 15px;
 				    word-wrap: break-word;
-				    max-width: 750px;
-				    width: 100%;
+				    width: 96%;
+				    line-height: 35px;
+				    bottom: 0;
+					margin: 0;
+					padding: 0 2%;
+					@media only screen and (max-width: 479px) {
+						line-height: 25px;
+					    padding-top: 10px;
+					    height: 60px;
+					}
 				}
+
 				img{
 					max-height: 480px !important;
 				}
@@ -184,6 +200,11 @@
 				li{
 					height: 130px;
 	    			margin: 0 0 10px;
+
+					@media only screen and (max-width: 767px) {
+		    			height: 150px;
+					}
+
 	    			&.has-post-thumbnail .desc {
 			    		padding-left: 18px!important;
 					}
@@ -191,6 +212,10 @@
 				.photo{
 					width: 190px !important;
 					height: 100%;
+
+					@media only screen and (max-width: 767px) {
+						width: 130px !important;
+					}
 				}
 				.desc{
 				        width: 64% !important;
@@ -468,9 +493,7 @@ em, i {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.news-ticker-headline{
-	
-}
+
 /*************************** remove comment and dates post box under post ************************/
 .desc_footer {
 	padding-top: 2px;
@@ -515,6 +538,7 @@ em, i {
 			.desc {
 				display: none;
 			}
+
 			img {
 				max-height: none !important;
 			}
@@ -522,7 +546,8 @@ em, i {
 	}
 }
 .content_slider.flat.description {
-	padding-bottom: 20px;
+	padding-bottom: 40px;
+
 	ul {
 		li {
 			/***** height width of image slider *****/
@@ -552,60 +577,6 @@ em, i {
 	}
 	
 }
-@media only screen and (max-width: 767px) {
-	#Content .section_wrapper .news-ticker-headline {
-    	width: 110vw!important;
-	}
-	#facebook ._2p3a{
-		width:100% !important;
-	}
-	.yba-home-event{
-		&.green-title {
-			.Latest_news {
-				.ul-first {
-					width: 100%;
-		    		
-		    		.post-excerpt{
-		    			margin: 0px 0 5px;
-		    		}
-		    		li{
-		    			.desc h4 {
-	    					margin: 0px;
-						}
-		    		}
-				}
-				.ul-second {
-					width:100%;
-					li{
-						height: 150px;
-		    			margin: 0 0 10px;
-		    			&.has-post-thumbnail .desc {
-				    		padding-left: 18px!important;
-						}
-					}
-					.photo{
-						width: 150px !important;
-						height: 100%;
-					}
-					.desc{
-					        width: 64% !important;
-	    					margin-left: 38% !important;
-					}
-				}
-			}
-		}
-	}
-	.newsletter {
-		form {
-		    .email-input {
-		    	width: 80% !important;
-		    }
-
-		    .btn-subscribe {
-			    width: 20% !important;
-		    }
-		}
-	}
-}
 
 /*****Form style css - End *******/
+
