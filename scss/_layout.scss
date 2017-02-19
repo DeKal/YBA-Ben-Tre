@@ -40,44 +40,51 @@
 /* ***********ALL PAGES LAYOUT - End ***********/
 
 /* ***********HOMEPAE STYLES - Start ***********/
-.caroufredsel_wrapper {
-	.content_slider_ul {
-		li {
-			a {
-			    height: 460px;
-				overflow: overlay;
-			    position: relative;
-				overflow: hidden;
+.su-kien {
+	@media only screen and (max-width: 767px) {
+		margin: 0;
+	    width: 100%!important;
+	    clear: both;
+	}
+	
+	.caroufredsel_wrapper {
+		.content_slider_ul {
+			li {
+				a {
+				    height: 460px;
+					overflow: overlay;
+				    position: relative;
+					overflow: hidden;
 
-				.title {
-					position: absolute;
-				    height: 85px;
-				    background: black;
-				    opacity: .9;
-				    color: white;
-				    padding-top: 15px;
-				    word-wrap: break-word;
-				    width: 96%;
-				    line-height: 35px;
-				    bottom: 0;
-					margin: 0;
-					padding: 0 2%;
-					@media only screen and (max-width: 479px) {
-						line-height: 25px;
-					    padding-top: 10px;
-					    height: 60px;
+					.title {
+						position: absolute;
+					    height: 85px;
+					    background: black;
+					    opacity: .9;
+					    color: white;
+					    padding-top: 15px;
+					    word-wrap: break-word;
+					    width: 96%;
+					    line-height: 35px;
+					    bottom: 0;
+						margin: 0;
+						padding: 0 2%;
+						@media only screen and (max-width: 479px) {
+							line-height: 25px;
+						    padding-top: 10px;
+						    height: 60px;
+						}
+					}
+
+					img{
+						max-height: 480px !important;
 					}
 				}
 
-				img{
-					max-height: 480px !important;
-				}
 			}
-
 		}
 	}
 }
-
 .green-title {
 	&.column{
 		margin-bottom: 10px;
@@ -341,7 +348,17 @@ div[id^="bwg_container"] div[id^="bwg_container"]  .bwg_img_clear {
 	}
 }
 
+.fan-page {
+	text-align: center;
+  	@media only screen and (min-width: 768px) and (max-width: 1150px) {
+		display: none;
+	}
 
+	iframe {
+		width: 380px;
+		border: none;
+	}
+}
 
 
 /* ***********HOMEPAE STYLES - End ***********/

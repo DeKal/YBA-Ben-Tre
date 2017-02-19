@@ -76,14 +76,14 @@ textarea {
 
 /* ***********HOMEPAE STYLES - Start ***********/
 
-.caroufredsel_wrapper .content_slider_ul li a {
+.su-kien .caroufredsel_wrapper .content_slider_ul li a {
 	position: relative;
 	overflow: overlay;
 	overflow: hidden;
 	height: 460px;
 }
 
-.caroufredsel_wrapper .content_slider_ul li a .title {
+.su-kien .caroufredsel_wrapper .content_slider_ul li a .title {
 	line-height: 35px;
 	position: absolute;
 	bottom: 0;
@@ -98,7 +98,7 @@ textarea {
 	background: black;
 }
 
-.caroufredsel_wrapper .content_slider_ul li a img {
+.su-kien .caroufredsel_wrapper .content_slider_ul li a img {
 	max-height: 480px !important;
 }
 
@@ -346,6 +346,15 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 
 .newsletter form .mc4wp-response {
 	position: absolute;
+}
+
+.fan-page {
+	text-align: center;
+}
+
+.fan-page iframe {
+	width: 380px;
+	border: none;
 }
 
 /* ***********HOMEPAE STYLES - End ***********/
@@ -768,6 +777,14 @@ i {
 
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1150px) {
+
+.fan-page {
+	display: none;
+}
+
+}
+
 @media screen and (min-width: 880px) and (max-width: 1024px) {
 
 .header-stack .secondary_menu_wrapper {
@@ -839,6 +856,12 @@ i {
 	max-width: calc(100% - 30px) !important;
 }
 
+.su-kien {
+	clear: both;
+	width: 100% !important;
+	margin: 0;
+}
+
 .yba-home-event.green-title .Latest_news .ul-second li {
 	height: 150px;
 }
@@ -868,7 +891,7 @@ i {
 
 @media only screen and (max-width: 479px) {
 
-.caroufredsel_wrapper .content_slider_ul li a .title {
+.su-kien .caroufredsel_wrapper .content_slider_ul li a .title {
 	line-height: 25px;
 	height: 60px;
 	padding-top: 10px;
