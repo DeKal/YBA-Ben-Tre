@@ -98,6 +98,8 @@
 				
 				<div class="secondary_menu_wrapper">
 					<!-- #secondary-menu -->
+					<img id ="yba_banner" alt="Banner" style=" margin-right: 30px;">
+					
 					<?php mfn_wp_secondary_menu(); ?>
 				</div>
 				

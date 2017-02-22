@@ -596,6 +596,11 @@ i {
 	box-shadow: 0 4px 2px -2px rgba(128, 128, 128, .56);
 }
 
+.header-stack #Top_bar #yba_banner {
+	height: 173px;
+	content: url('/wp-content/uploads/YBA_Banner.jpg');
+}
+
 .header-stack #Top_bar .logo {
 	margin-bottom: 40px;
 	border-bottom-width: 0;
