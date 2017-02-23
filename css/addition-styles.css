@@ -205,6 +205,10 @@ textarea {
 	margin: 0 0 5px;
 }
 
+.yba-home-event.green-title .Latest_news .ul-first li .photo {
+	border: none;
+}
+
 .yba-home-event.green-title .Latest_news .ul-first li .desc h4 {
 	margin: 0;
 }
