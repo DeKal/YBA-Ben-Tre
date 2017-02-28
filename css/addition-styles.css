@@ -758,14 +758,14 @@ i {
 
 /************* HUY FOOTER - End **********/
 
-@media screen and (min-width: 640px) and (max-width: 879px) {
+@media screen and (min-width: 415px) and (max-width: 768px) {
 
 .header-stack .secondary_menu_wrapper {
 	position: absolute;
 	top: 0 !important;
-	left: -15%;
+	left: -5%;
 	margin: 0;
-	margin-right: -17%;
+	margin-right: -20%;
 }
 
 .header-stack .secondary_menu_wrapper img {
@@ -791,6 +791,35 @@ i {
 
 .fan-page {
 	display: none;
+}
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 879px) {
+
+.header-stack .secondary_menu_wrapper {
+	position: absolute;
+	top: 0 !important;
+	left: -15%;
+	margin: 0;
+	margin-right: -17%;
+}
+
+.header-stack .secondary_menu_wrapper img {
+	height: 115px !important;
+}
+
+.header-stack .logo {
+	height: 75px !important;
+}
+
+.header-stack .header-stack #Top_bar a.responsive-menu-toggle i {
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.header-stack .header-stack #Top_bar .menu_wrapper {
+	height: 40px;
 }
 
 }
@@ -880,23 +909,6 @@ i {
 	width: 130px !important;
 }
 
-.header-stack .secondary_menu_wrapper {
-	position: absolute;
-	top: 0 !important;
-	left: -25%;
-	display: block !important;
-	margin: 0;
-	margin-right: -13%;
-}
-
-.header-stack .secondary_menu_wrapper img {
-	height: 80px !important;
-}
-
-.header-stack .logo {
-	height: 40px !important;
-}
-
 }
 
 @media only screen and (max-width: 479px) {
@@ -913,6 +925,27 @@ i {
 
 div[id^='bwg_container'] a {
 	float: none;
+}
+
+}
+
+@media only screen and (max-width: 414px) {
+
+.header-stack .secondary_menu_wrapper {
+	position: absolute;
+	top: 0 !important;
+	left: -25%;
+	display: block !important;
+	margin: 0;
+	margin-right: -13%;
+}
+
+.header-stack .secondary_menu_wrapper img {
+	height: 80px !important;
+}
+
+.header-stack .logo {
+	height: 40px !important;
 }
 
 }
