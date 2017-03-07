@@ -32,6 +32,12 @@
 			    }
 	    	}
 	    }
+
+	    .wrap.one-third {    
+		    .column.one {
+	    		width: 96%;
+	    	}
+	    }
 	}
 	img{
 		border: 1px solid #2B8C5F;
@@ -353,14 +359,7 @@ div[id^="bwg_container"] div[id^="bwg_container"]  .bwg_img_clear {
 
 .fan-page {
 	text-align: center;
-  	@media only screen and (min-width: 768px) and (max-width: 1150px) {
-		display: none;
-	}
-
-	iframe {
-		width: 380px;
-		border: none;
-	}
+	overflow: hidden;
 }
 
 
