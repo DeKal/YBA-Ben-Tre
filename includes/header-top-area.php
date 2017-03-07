@@ -63,8 +63,17 @@
 			<div class="top_bar_left clearfix">
 			
 				<!-- Logo -->
-				<?php get_template_part( 'includes/include', 'logo' ); ?>
-			
+				<!-- <?php get_template_part( 'includes/include', 'logo' ); ?> -->
+
+				<div class="secondary_menu_wrapper">
+					<!-- #secondary-menu -->
+					<div id="yba-header-title" class="center">
+						<img id ="yba-logo" class="logo-main scale-with-grid" src="/wp-content/uploads/2017/03/new_logo.png" alt="Logo">
+						<img id ="yba-text" src = "/wp-content/uploads/2017/03/new_text_logo.png"> </img>
+					</div>
+					<?php mfn_wp_secondary_menu(); ?>
+				</div>
+
 				<div class="menu_wrapper">
 					<?php 
 						if( ( mfn_header_style( true ) != 'header-overlay' ) && ( mfn_opts_get( 'menu-style' ) != 'hide' ) ){
@@ -95,13 +104,6 @@
 						}
 					?>					
 				</div>			
-				
-				<div class="secondary_menu_wrapper">
-					<!-- #secondary-menu -->
-					<img id ="yba_banner" alt="Banner" style=" margin-right: 30px;">
-					
-					<?php mfn_wp_secondary_menu(); ?>
-				</div>
 				
 				<div class="banner_wrapper">
 					<?php mfn_opts_show( 'header-banner' ); ?>
