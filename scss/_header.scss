@@ -12,24 +12,47 @@
     background-image: linear-gradient(-180deg, #149F6D 0%, #107847 100%);
     box-shadow: none !important;
 
+    .container {
+      max-width: initial;
+      .column.one {
+        width: 100%;
+        margin: 0;
+
+        .top_bar_left {
+          display: table;
+
+          .logo {
+            display: none;
+            border-bottom-width: 0;
+/*             #logo, .logo-main{
+              padding: 0px;
+              height: 127px;
+              width: 98px;
+              margin-left: 100px;
+            } */
+          }
+
+          .secondary_menu_wrapper {
+            //top: 0px !important;
+            //position: absolute;
+            width: 100vw;
+            margin-left: calc(-1 * ((100vw - 100%) / 2));
+            //right: initial !important;
+            display: table-header-group;
+            position: initial;
+          }
+
+        }
+      }
+    }
+
     #yba_banner{
-      height:173px;
+      //height:173px;
       content: url("/wp-content/uploads/YBA_Banner.jpg");
       width:100%
     }
 
-    .logo {
-      margin-bottom: 40px;
-      border-bottom-width: 0;
 
-      #logo, .logo-main{
-        padding: 0px;
-        height: 127px;
-        width: 98px;
-        margin-left: 100px;
-      }
-
-    }
     .menu_wrapper{
       width: 100vw;
       margin-left: calc(-1 * ((100vw - 100%) / 2));
@@ -37,6 +60,12 @@
       background-image: linear-gradient(-180deg, #FFEA5A 0%, #FCBB35 100%);
       #menu{
           padding-left: 20px;
+      }
+
+      .responsive-menu-toggle {
+        .icon-menu-fine {
+          color: #107847;
+        }
       }
     }
     .menu {
@@ -54,6 +83,12 @@
               font-weight: 600;
               border: none;
               padding: 0px 30px;
+              margin-left: -24px;
+              
+              @media screen and (max-width: 880px) {
+                padding: 0px 25px;
+              }
+
             }
           }
         }
@@ -67,7 +102,9 @@
     box-shadow: 0 4px 2px -2px rgba(128, 128, 128, 0.56);
   }
 
-  @media screen and (min-width: 1500px) and (max-width:3000px) {
+
+
+/*   @media screen and (min-width: 1500px) and (max-width:3000px) {
     .secondary_menu_wrapper {
       //margin-top: 35px;
       position: absolute;
@@ -98,7 +135,7 @@
       margin-right: -19%;
       top: 0px !important;
     }
-  }
+  } */
 
   @media screen and (min-width: 880px) and (max-width:1024px) {
     .secondary_menu_wrapper {

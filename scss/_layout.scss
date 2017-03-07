@@ -459,6 +459,12 @@ em, i {
 
 /* **************ADS STYLES - Start*********/
 .ads-image {
+    margin-left: -10px !important;
+
+  	@media only screen and (max-width: 767px){
+		margin-left: -20px !important;
+	}
+
 	&.column, &.columns {
     	float: left;
     	margin: 0 1% -15px;

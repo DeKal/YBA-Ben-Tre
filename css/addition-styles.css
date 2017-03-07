@@ -446,6 +446,10 @@ i {
 
 /* **************ADS STYLES - Start*********/
 
+.ads-image {
+	margin-left: -10px !important;
+}
+
 .ads-image.column,
 .ads-image.columns {
 	float: left;
@@ -589,6 +593,40 @@ i {
 
 /***********    HUY HEADER - Start ***********/
 
+.header-stack { /*   @media screen and (min-width: 1500px) and (max-width:3000px) {
+    .secondary_menu_wrapper {
+      //margin-top: 35px;
+      position: absolute;
+      margin: 0;
+      left: -18%;
+      margin-right: -17%;
+      top: 0px !important;
+
+    }
+  }
+  @media screen and (min-width: 1248px) and (max-width:1499px) {
+    .secondary_menu_wrapper {
+      //margin-top: 35px;
+      position: absolute;
+      margin: 0;
+      left: -14%;
+      margin-right: -13%;
+      top: 0px !important;
+    }
+  }
+
+  @media screen and (min-width: 1025px) and (max-width:1247px) {
+    .secondary_menu_wrapper {
+      //margin-top: 35px;
+      position: absolute;
+      margin: 0;
+      left: -16%;
+      margin-right: -19%;
+      top: 0px !important;
+    }
+  } */
+}
+
 .header-stack .center {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-align: center;
@@ -600,23 +638,39 @@ i {
 	box-shadow: 0 4px 2px -2px rgba(128, 128, 128, .56);
 }
 
+.header-stack #Top_bar .container {
+	max-width: initial;
+}
+
+.header-stack #Top_bar .container .column.one {
+	width: 100%;
+	margin: 0;
+}
+
+.header-stack #Top_bar .container .column.one .top_bar_left {
+	display: table;
+}
+
+.header-stack #Top_bar .container .column.one .top_bar_left .logo {
+	display: none;
+	border-bottom-width: 0; /*             #logo, .logo-main{
+              padding: 0px;
+              height: 127px;
+              width: 98px;
+              margin-left: 100px;
+            } */
+}
+
+.header-stack #Top_bar .container .column.one .top_bar_left .secondary_menu_wrapper {
+	position: initial;
+	display: table-header-group;
+	width: 100vw;
+	margin-left: calc(-1 * ((100vw - 100%) / 2));
+}
+
 .header-stack #Top_bar #yba_banner {
 	width: 100%;
-	height: 173px;
 	content: url('/wp-content/uploads/YBA_Banner.jpg');
-}
-
-.header-stack #Top_bar .logo {
-	margin-bottom: 40px;
-	border-bottom-width: 0;
-}
-
-.header-stack #Top_bar .logo #logo,
-.header-stack #Top_bar .logo .logo-main {
-	width: 98px;
-	height: 127px;
-	margin-left: 100px;
-	padding: 0;
 }
 
 .header-stack #Top_bar .menu_wrapper {
@@ -630,6 +684,10 @@ i {
 	padding-left: 20px;
 }
 
+.header-stack #Top_bar .menu_wrapper .responsive-menu-toggle .icon-menu-fine {
+	color: #107847;
+}
+
 .header-stack #Top_bar .menu > li a:after {
 	background: #087441 !important;
 }
@@ -638,6 +696,7 @@ i {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 600;
 	line-height: 37px;
+	margin-left: -24px;
 	padding: 0 30px;
 	border: none;
 }
@@ -853,38 +912,10 @@ i {
 
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1247px) {
+@media screen and (max-width: 880px) {
 
-.header-stack .secondary_menu_wrapper {
-	position: absolute;
-	top: 0 !important;
-	left: -16%;
-	margin: 0;
-	margin-right: -19%;
-}
-
-}
-
-@media screen and (min-width: 1248px) and (max-width: 1499px) {
-
-.header-stack .secondary_menu_wrapper {
-	position: absolute;
-	top: 0 !important;
-	left: -14%;
-	margin: 0;
-	margin-right: -13%;
-}
-
-}
-
-@media screen and (min-width: 1500px) and (max-width: 3000px) {
-
-.header-stack .secondary_menu_wrapper {
-	position: absolute;
-	top: 0 !important;
-	left: -18%;
-	margin: 0;
-	margin-right: -17%;
+.header-stack #Top_bar .menu > li > a span:not(.description) {
+	padding: 0 25px;
 }
 
 }
@@ -909,6 +940,10 @@ i {
 	width: 130px !important;
 }
 
+.ads-image {
+	margin-left: -20px !important;
+}
+
 }
 
 @media only screen and (max-width: 479px) {
@@ -929,7 +964,7 @@ div[id^='bwg_container'] a {
 
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 415px) {
 
 .header-stack .secondary_menu_wrapper {
 	position: absolute;
