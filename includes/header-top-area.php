@@ -68,8 +68,8 @@
 				<div class="secondary_menu_wrapper">
 					<!-- #secondary-menu -->
 					<div id="yba-header-title" class="center">
-						<img id ="yba-logo" class="logo-main scale-with-grid" src="/wp-content/uploads/2017/03/new_logo.png" alt="Logo">
-						<img id ="yba-text" src = "/wp-content/uploads/2017/03/new_text_logo.png"> </img>
+						<img id ="yba-logo" class="logo-main scale-with-grid" alt="Logo">
+						<img id ="yba-text" > </img>
 					</div>
 					<?php mfn_wp_secondary_menu(); ?>
 				</div>

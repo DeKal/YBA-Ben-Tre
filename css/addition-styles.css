@@ -276,16 +276,20 @@ textarea {
 
 div[id^='bwg_container'] a {
 	float: left;
-	width: 49%;
+	width: 33%;
 	margin: 0 2px 5px 0;
 	border-color: #23a468;
+}
+
+.thu-vien-anh-review div[id^='bwg_container'] a {
+	width: 49%;
 }
 
 .mcb-wrap {
 	position: static;
 }
 
-div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
+.thu-vien-anh-review div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 	width: 100% !important;
 	height: 100% !important;
 	padding: 0 !important;
@@ -330,19 +334,19 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 	max-width: 100% !important;
 }
 
-.bwg_album_thumb_spun1_0,
+.thu-vien-anh-review .bwg_album_thumb_spun1_0,
 bwg_album_thumb_spun2_0 {
 	width: 99% !important;
 }
 
-#bwg_container1_0 #bwg_container2_0 .bwg_album_thumb_spun2_0 {
+.thu-vien-anh-review #bwg_container1_0 #bwg_container2_0 .bwg_album_thumb_spun2_0 {
 	overflow: initial !important;
 	width: 99% !important;
 	margin: 5px !important;
 	padding: 5px !important;
 }
 
-#bwg_container1_0 #bwg_container2_0 .bwg_album_thumb_spun1_0:hover {
+.thu-vien-anh-review #bwg_container1_0 #bwg_container2_0 .bwg_album_thumb_spun1_0:hover {
 	-webkit-transform: initial !important;
 	-ms-transform: initial !important;
 	transform: initial !important;
@@ -666,9 +670,12 @@ i {
 	margin-left: 70px;
 }
 
-.header-stack #Top_bar #yba_banner {
-	width: 100%;
-	content: url('/wp-content/uploads/YBA_Banner.jpg');
+.header-stack #Top_bar #yba-logo {
+	content: url('/wp-content/uploads/new_logo.png');
+}
+
+.header-stack #Top_bar #yba-text {
+	content: url('/wp-content/uploads/new_text_logo.png');
 }
 
 .header-stack #Top_bar .menu_wrapper {
@@ -838,6 +845,14 @@ i {
 
 }
 
+@media only screen and (max-width: 968px) {
+
+.header-stack #Top_bar #yba-text {
+	content: url('/wp-content/uploads/banner-text-600.png');
+}
+
+}
+
 @media screen and (max-width: 880px) {
 
 .header-stack #Top_bar .menu > li > a span:not(.description) {
@@ -866,7 +881,7 @@ i {
 	width: 130px !important;
 }
 
-.bwg_album_thumb_spun1_0,
+.thu-vien-anh-review .bwg_album_thumb_spun1_0,
 .bwg_album_thumb_spun2_0 {
 	height: 200px !important;
 }
@@ -883,6 +898,14 @@ i {
 .header-stack #Top_bar .container .column.one .top_bar_left .secondary_menu_wrapper #yba-header-title #yba-logo {
 	left: -150px;
 	height: 130px;
+}
+
+}
+
+@media only screen and (max-width: 700px) {
+
+.header-stack #Top_bar #yba-text {
+	display: none;
 }
 
 }

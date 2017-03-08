@@ -72,13 +72,18 @@
         }
       }
     } 
-
-    #yba_banner{
-      //height:173px;
-      content: url("/wp-content/uploads/YBA_Banner.jpg");
-      width:100%
+    #yba-logo{
+      content: url("/wp-content/uploads/new_logo.png");
     }
-
+    #yba-text{
+      content: url("/wp-content/uploads/new_text_logo.png");
+      @media only screen and (max-width: 968px) {
+          content: url("/wp-content/uploads/banner-text-600.png");
+      }
+      @media only screen and (max-width: 700px) {
+          display:none;
+      }
+    }
 
     .menu_wrapper{
       width: 100vw;
