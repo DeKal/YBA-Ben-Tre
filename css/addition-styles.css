@@ -286,10 +286,13 @@ div[id^='bwg_container'] a {
 }
 
 div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
-	max-width: 99% !important;
-	max-height: 98% !important;
-	margin: 0 !important;
+	width: 100% !important;
+	height: 100% !important;
 	padding: 0 !important;
+}
+
+.bwg_album_thumb_spun2_0 img {
+	margin-left: -9px !important;
 }
 
 .thu-vien-anh-review {
@@ -297,7 +300,6 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 }
 
 #gal_front_form_0 {
-	margin-left: 15px;
 	padding: 0;
 }
 
@@ -862,6 +864,11 @@ i {
 
 .yba-home-event.green-title .Latest_news .ul-second .photo {
 	width: 130px !important;
+}
+
+.bwg_album_thumb_spun1_0,
+.bwg_album_thumb_spun2_0 {
+	height: 200px !important;
 }
 
 .ads-image {
