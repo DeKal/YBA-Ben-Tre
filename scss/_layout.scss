@@ -46,8 +46,15 @@
 /* ***********ALL PAGES LAYOUT - End ***********/
 
 /* ***********HOMEPAE STYLES - Start ***********/
+.home-fan-page{
+	@media only screen and (max-width: 768px) {
+		margin: 0;
+	    width: 100%!important;
+	    clear: both;
+	}
+}
 .su-kien {
-	@media only screen and (max-width: 767px) {
+	@media only screen and (max-width: 768px) {
 		margin: 0;
 	    width: 100%!important;
 	    clear: both;
@@ -357,12 +364,12 @@ div[id^="bwg_container"] a {
 
 .newsletter {
 	#mc4wp-form-1{
-		margin : 0;
+		margin: 0 auto;
 	}
 	form {
 		padding: 0;
 	    margin: 0;
-	    width: 100%;
+	    width: 75%;
 
 	    .email-input {
 	    	width: 85% !important;
@@ -370,6 +377,8 @@ div[id^="bwg_container"] a {
 			float: left;
 	    	font-size: 14px;
 			text-align: center;
+			max-width: 100%!important;
+			border-color: #07b764;
 	    }
 
 	    .btn-subscribe {
@@ -500,11 +509,12 @@ em, i {
     	margin: 0 1% -15px;
     }
     img{
+    	padding:10px 0 10px;
 		height: 98px!important;
 		border: none !important;
 	}
 	td div:first-child { 
-	   height: 98px !important;
+	   height: 120px !important;
 	}
 }
 

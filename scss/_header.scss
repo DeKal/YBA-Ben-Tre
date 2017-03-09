@@ -43,6 +43,7 @@
                 float: left;
                 position: absolute;
                 left: -130px;
+                content: url("/wp-content/uploads/new_logo.png");
 
                 @media screen and (min-width: 768px) and (max-width:1024px) {
                   height: 130px;
@@ -58,7 +59,19 @@
                 height: 75%;
                 margin-top: 10px;
                 margin-left: 70px;
-
+                content: url("/wp-content/uploads/new_text_logo.png");
+                @media only screen and (max-width: 968px) {
+                    content: url("/wp-content/uploads/banner-text-600.png");
+                }
+                @media only screen and (min-width: 601px) and (max-width: 700px) {
+                    width: 350px;
+                }
+                @media only screen and (max-width: 600px){
+                  content: url("/wp-content/uploads/banner-text-mobile-600.png");
+                  width: 200px;
+                  height: 25px;
+                  padding-top: 40px;
+                }
                 @media screen and (min-width: 426px) and (max-width:888px) {
                   height: 65%;
                   margin-top: 10px;
@@ -72,18 +85,6 @@
         }
       }
     } 
-    #yba-logo{
-      content: url("/wp-content/uploads/new_logo.png");
-    }
-    #yba-text{
-      content: url("/wp-content/uploads/new_text_logo.png");
-      @media only screen and (max-width: 968px) {
-          content: url("/wp-content/uploads/banner-text-600.png");
-      }
-      @media only screen and (max-width: 700px) {
-          display:none;
-      }
-    }
 
     .menu_wrapper{
       width: 100vw;
