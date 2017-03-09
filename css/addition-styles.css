@@ -80,6 +80,11 @@ textarea {
 
 /* ***********HOMEPAE STYLES - Start ***********/
 
+.home-fan-page .fan-page {
+	overflow: hidden;
+	text-align: center;
+}
+
 .su-kien .caroufredsel_wrapper .content_slider_ul li a {
 	position: relative;
 	overflow: overlay;
@@ -231,7 +236,6 @@ textarea {
 }
 
 .yba-home-event.green-title .Latest_news .ul-second .photo {
-	width: 190px !important;
 	height: 100%;
 }
 
@@ -363,20 +367,13 @@ bwg_album_thumb_spun2_0 {
 
 /************Photo Gallery - End *****************/
 
-.newsletter #mc4wp-form-1 {
-	margin: 0 auto;
-}
-
 .newsletter form {
-	width: 75%;
-	margin: 0;
 	padding: 0;
 }
 
 .newsletter form .email-input {
 	font-size: 14px;
 	float: left;
-	width: 85% !important;
 	width: 230px !important;
 	max-width: 100% !important;
 	margin: 0;
@@ -386,22 +383,16 @@ bwg_album_thumb_spun2_0 {
 
 .newsletter form .btn-subscribe {
 	font-size: 14px;
-	width: 15% !important;
 	width: 70px !important;
 	margin: 0;
+	margin-top: -1px;
 	text-align: center;
 	color: white;
-	background-color: #07b764;
 	background-color: #09522f;
 }
 
 .newsletter form .mc4wp-response {
 	position: absolute;
-}
-
-.fan-page {
-	overflow: hidden;
-	text-align: center;
 }
 
 /* ***********HOMEPAE STYLES - End ***********/
@@ -687,10 +678,6 @@ i {
 	background-image: linear-gradient(-180deg, #ffea5a 0%, #fcbb35 100%);
 }
 
-.header-stack #Top_bar .menu_wrapper #menu {
-	margin-left: -20px;
-}
-
 .header-stack #Top_bar .menu_wrapper #menu #menu-main-menu {
 	max-width: 1140px;
 	margin: 0 auto;
@@ -711,6 +698,7 @@ i {
 	line-height: 37px;
 	margin-left: -24px;
 	padding: 0 30px;
+	cursor: pointer;
 	border: none;
 }
 
@@ -831,6 +819,14 @@ i {
 
 /************* HUY FOOTER - End **********/
 
+@media screen and (min-width: 426px) and (max-width: 768px) {
+
+.home-fan-page {
+	display: none;
+}
+
+}
+
 @media screen and (min-width: 426px) and (max-width: 888px) {
 
 .header-stack #Top_bar .container .column.one .top_bar_left .secondary_menu_wrapper #yba-header-title #yba-text {
@@ -869,6 +865,14 @@ i {
 
 }
 
+@media only screen and (max-width: 880px) {
+
+.header-stack #Top_bar .menu_wrapper #menu #menu-main-menu {
+	margin-left: 10px;
+}
+
+}
+
 @media screen and (max-width: 880px) {
 
 .header-stack #Top_bar .menu > li > a span:not(.description) {
@@ -878,12 +882,6 @@ i {
 }
 
 @media only screen and (max-width: 768px) {
-
-.home-fan-page {
-	clear: both;
-	width: 100% !important;
-	margin: 0;
-}
 
 .su-kien {
 	clear: both;
@@ -901,10 +899,6 @@ i {
 
 .yba-home-event.green-title .Latest_news .ul-second li {
 	height: 150px;
-}
-
-.yba-home-event.green-title .Latest_news .ul-second .photo {
-	width: 130px !important;
 }
 
 .thu-vien-anh-review .bwg_album_thumb_spun1_0,
