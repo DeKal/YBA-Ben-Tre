@@ -237,6 +237,10 @@
 					width: 190px !important;
 					height: 100%;
 
+					img {
+					max-width: 95% !important;
+					}
+
 					@media only screen and (max-width: 767px) {
 						width: 130px !important;
 					}
@@ -245,6 +249,7 @@
 				        width: 64% !important;
     					margin-left: 38% !important;
 				}
+
 			}
 		}
 	}

@@ -235,6 +235,10 @@ textarea {
 	height: 100%;
 }
 
+.yba-home-event.green-title .Latest_news .ul-second .photo img {
+	max-width: 95% !important;
+}
+
 .yba-home-event.green-title .Latest_news .ul-second .desc {
 	width: 64% !important;
 	margin-left: 38% !important;
@@ -373,19 +377,22 @@ bwg_album_thumb_spun2_0 {
 	font-size: 14px;
 	float: left;
 	width: 85% !important;
+	width: 230px !important;
 	max-width: 100% !important;
 	margin: 0;
 	text-align: center;
-	border-color: #07b764;
+	border: none;
 }
 
 .newsletter form .btn-subscribe {
 	font-size: 14px;
 	width: 15% !important;
+	width: 70px !important;
 	margin: 0;
 	text-align: center;
 	color: white;
 	background-color: #07b764;
+	background-color: #09522f;
 }
 
 .newsletter form .mc4wp-response {
@@ -677,13 +684,16 @@ i {
 
 .header-stack #Top_bar .menu_wrapper {
 	width: 100vw;
-	margin-left: calc(-1 * ((100vw - 100%) / 2));
-	padding-left: calc((100vw - 100%) / 2);
 	background-image: linear-gradient(-180deg, #ffea5a 0%, #fcbb35 100%);
 }
 
 .header-stack #Top_bar .menu_wrapper #menu {
-	padding-left: 20px;
+	margin-left: -20px;
+}
+
+.header-stack #Top_bar .menu_wrapper #menu #menu-main-menu {
+	max-width: 1140px;
+	margin: 0 auto;
 }
 
 .header-stack #Top_bar .menu_wrapper .responsive-menu-toggle .icon-menu-fine {
@@ -738,6 +748,7 @@ i {
 	font-family: Helvetica;
 	font-size: 14px;
 	margin-top: 5px;
+	margin-bottom: 25px;
 	color: #fff;
 }
 
@@ -901,10 +912,6 @@ i {
 	height: 200px !important;
 }
 
-.newsletter form .email-input {
-	width: 80% !important;
-}
-
 .ads-image {
 	margin-left: -20px !important;
 }
@@ -943,14 +950,6 @@ i {
 }
 
 @media only screen and (max-width: 468px) {
-
-.newsletter form .email-input {
-	width: 75% !important;
-}
-
-.newsletter form .btn-subscribe {
-	width: 25% !important;
-}
 
 .header-stack #Top_bar .container .column.one .top_bar_left .secondary_menu_wrapper #yba-header-title #yba-text {
 	display: none;
