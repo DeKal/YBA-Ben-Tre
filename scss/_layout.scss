@@ -47,11 +47,16 @@
 
 /* ***********HOMEPAE STYLES - Start ***********/
 .home-fan-page{
-	@media only screen and (max-width: 768px) {
-		margin: 0;
-	    width: 100%!important;
-	    clear: both;
+	@media screen and (min-width: 426px) and (max-width:768px) {
+		//margin: 0;
+	    //width: 100%!important;
+	    //clear: both;
 	    display: none;
+	}
+
+	.fan-page {
+		text-align: center;
+		overflow: hidden;
 	}
 }
 .su-kien {
@@ -234,7 +239,7 @@
 					}
 				}
 				.photo{
-					width: 190px !important;
+					//width: 190px !important;
 					height: 100%;
 
 					img {
@@ -242,7 +247,7 @@
 					}
 
 					@media only screen and (max-width: 767px) {
-						width: 130px !important;
+						//width: 130px !important;
 					}
 				}
 				.desc{
@@ -396,11 +401,6 @@ div[id^="bwg_container"] a {
 	    	position: absolute;
 	    }
 	}
-}
-
-.fan-page {
-	text-align: center;
-	overflow: hidden;
 }
 
 
