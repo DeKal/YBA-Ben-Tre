@@ -363,23 +363,15 @@ div[id^="bwg_container"] a {
 /************Photo Gallery - End *****************/
 
 .newsletter {
-	#mc4wp-form-1{
-		margin: 0 auto;
-	}
 	form {
 		padding: 0;
-	    margin: 0;
-	    width: 75%;
 
 	    .email-input {
-	    	width: 85% !important;
 			margin: 0;
 			float: left;
 	    	font-size: 14px;
 			text-align: center;
 			max-width: 100%!important;
-			//border-color: #07b764;
-
 		    width: 230px !important;
 		    border: none;
 	    }
@@ -389,10 +381,9 @@ div[id^="bwg_container"] a {
 		    margin: 0;
 		    text-align: center;
 		    color: white;
-		    width: 15% !important;
-			background-color: #07B764;
 			width: 70px !important;
 			background-color: #09522f;
+		    margin-top: -1px;
 
 	    }
 	    .mc4wp-response {
