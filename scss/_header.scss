@@ -91,11 +91,16 @@
 
     .menu_wrapper{
       width: 100vw;
-      margin-left: calc(-1 * ((100vw - 100%) / 2));
-      padding-left: calc((100vw - 100%) / 2);
+      //margin-left: calc(-1 * ((100vw - 100%) / 2));
+      //padding-left: calc((100vw - 100%) / 2);
       background-image: linear-gradient(-180deg, #FFEA5A 0%, #FCBB35 100%);
       #menu{
-          padding-left: 20px;
+          margin-left: -20px;
+
+          #menu-main-menu {
+            max-width: 1140px;
+            margin: 0 auto;
+          }
       }
 
       .responsive-menu-toggle {
