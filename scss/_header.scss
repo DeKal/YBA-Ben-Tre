@@ -72,6 +72,9 @@
                   height: 25px;
                   padding-top: 40px;
                 }
+                @media only screen and (max-width: 468px){
+                  display:none;
+                }
                 @media screen and (min-width: 426px) and (max-width:888px) {
                   height: 65%;
                   margin-top: 10px;

@@ -379,6 +379,13 @@ div[id^="bwg_container"] a {
 			text-align: center;
 			max-width: 100%!important;
 			border-color: #07b764;
+
+		  	@media only screen and (max-width: 767px){
+				width: 80% !important;
+			}
+			@media only screen and (max-width: 468px){
+				width: 75% !important;
+			}
 	    }
 
 	    .btn-subscribe {
@@ -390,6 +397,9 @@ div[id^="bwg_container"] a {
 			background-color: #07B764;
 			//background-size: 100% 100%;
 			//background-repeat: no-repeat;
+			@media only screen and (max-width: 468px){
+				width: 25% !important;
+			}
 	    }
 	    .mc4wp-response {
 	    	position: absolute;

@@ -901,6 +901,10 @@ i {
 	height: 200px !important;
 }
 
+.newsletter form .email-input {
+	width: 80% !important;
+}
+
 .ads-image {
 	margin-left: -20px !important;
 }
@@ -934,6 +938,22 @@ i {
 	line-height: 25px;
 	height: 60px;
 	padding-top: 10px;
+}
+
+}
+
+@media only screen and (max-width: 468px) {
+
+.newsletter form .email-input {
+	width: 75% !important;
+}
+
+.newsletter form .btn-subscribe {
+	width: 25% !important;
+}
+
+.header-stack #Top_bar .container .column.one .top_bar_left .secondary_menu_wrapper #yba-header-title #yba-text {
+	display: none;
 }
 
 }
