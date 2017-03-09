@@ -438,9 +438,13 @@ bwg_album_thumb_spun2_0 {
 	max-height: 250px;
 }
 
+.section-post-related .post-related a {
+	display: table;
+	margin: 0 auto;
+}
+
 .section-post-related .post-related a.button {
-	margin-bottom: 0;
-	margin-left: 25%;
+	margin: 0 auto;
 }
 
 .section-related-adjustment .desc h4 {
@@ -906,6 +910,15 @@ i {
 	height: 200px !important;
 }
 
+.section-post-header .post-nav {
+	position: relative;
+}
+
+.section-post-related .post-related.column {
+	clear: none;
+	width: 50% !important;
+}
+
 .ads-image {
 	margin-left: -20px !important;
 }
@@ -923,6 +936,10 @@ i {
 }
 
 @media only screen and (max-width: 600px) {
+
+.section-post-related .post-related.column {
+	width: 100% !important;
+}
 
 .header-stack #Top_bar .container .column.one .top_bar_left .secondary_menu_wrapper #yba-header-title #yba-text {
 	width: 200px;
