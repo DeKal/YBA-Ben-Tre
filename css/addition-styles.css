@@ -303,6 +303,11 @@ div[id^='bwg_container'] a {
 	padding: 0 !important;
 }
 
+div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
+	max-width: 99% !important;
+	max-height: 99% !important;
+}
+
 .bwg_album_thumb_spun2_0 img {
 	margin-left: -9px !important;
 }
@@ -328,9 +333,10 @@ div[id^='bwg_container'] a {
 }
 
 .bwg_title_spun1_0 {
-	width: 100% !important;
+	width: 96% !important;
 	height: 30% !important;
-	margin-top: 59%;
+	margin-top: 47%;
+	margin-left: 1% !important;
 	opacity: .7 !important;
 	background-color: black !important;
 }
@@ -339,12 +345,19 @@ div[id^='bwg_container'] a {
 	width: 100% !important;
 }
 
+.bwg_album_thumb_0 img {
+	width: 100% !important;
+}
+
 #bwg_album_compact_0 {
 	max-width: 100% !important;
 }
 
-.thu-vien-anh-review .bwg_album_thumb_spun1_0,
-.thu-vien-anh-review bwg_album_thumb_spun2_0 {
+.bwg_album_thumb_spun2_0 {
+	width: 98% !important;
+}
+
+.thu-vien-anh-review .bwg_album_thumb_spun1_0 {
 	width: 98% !important;
 }
 
