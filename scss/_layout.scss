@@ -317,6 +317,7 @@ div[id^="bwg_container"] a {
 }
 .thu-vien-anh-review{
 	margin-top: 0px;
+	margin-bottom: 35px;
 }
 
 .thu-vien-anh-review .bwg_album_thumb_spun1_0, .bwg_album_thumb_spun2_0{
@@ -352,24 +353,37 @@ div[id^="bwg_container"] a {
 #bwg_album_compact_0{
 	max-width:100% !important;
 }
-.thu-vien-anh-review .bwg_album_thumb_spun1_0, bwg_album_thumb_spun2_0{
-	width:99%!important;
+.thu-vien-anh-review{ 
+	.bwg_album_thumb_spun1_0, bwg_album_thumb_spun2_0{
+		width:98%!important;
+	}
+	#bwg_container1_0 #bwg_container2_0 
+	{
+		.bwg_album_thumb_spun2_0 {
+			width:99% !important;
+			overflow:initial !important;
+			padding: 5px!important;
+			margin: 5px !important;
+		}
+		.bwg_album_thumb_spun1_0:hover{
+			opacity:0.5!important;
+			transform: initial !important; 
+		    -ms-transform: initial !important;
+		    -webkit-transform: initial !important;
+		    backface-visibility: hidden;
+		    -webkit-backface-visibility: hidden;
+		    -moz-backface-visibility: hidden;
+		    -ms-backface-visibility: hidden;
+		}
+	}
 }
-.thu-vien-anh-review #bwg_container1_0 #bwg_container2_0 .bwg_album_thumb_spun2_0 {
-	width:99% !important;
-	overflow:initial !important;
-	padding: 5px!important;
-	margin: 5px !important;
-}
-.thu-vien-anh-review #bwg_container1_0 #bwg_container2_0 .bwg_album_thumb_spun1_0:hover{
-	opacity:0.5!important;
-	transform: initial !important; 
-    -ms-transform: initial !important;
-    -webkit-transform: initial !important;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
+.bwg_album_thumb_spun1_0{
+	width:98%!important;
+	z-index:102;
+	backface-visibility: hidden!important;
+    -webkit-backface-visibility: hidden!important;
+    -moz-backface-visibility: hidden!important;
+    -ms-backface-visibility: hidden!important;
 }
 /************Photo Gallery - End *****************/
 
@@ -385,6 +399,9 @@ div[id^="bwg_container"] a {
 			max-width: 100%!important;
 		    width: 230px !important;
 		    border: none;
+		    @media only screen and (max-width: 380px){
+	    		width: 70% !important;
+	    	}
 	    }
 
 	    .btn-subscribe {
@@ -395,7 +412,9 @@ div[id^="bwg_container"] a {
 			width: 70px !important;
 			background-color: #09522f;
 		    margin-top: -1px;
-
+		    @media only screen and (max-width: 380px){
+	    		width: 30% !important;
+	    	}
 	    }
 	    .mc4wp-response {
 	    	position: absolute;
