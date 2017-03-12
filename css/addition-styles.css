@@ -647,6 +647,16 @@ i {
 	background: #f0f0f0;
 }
 
+form,
+fieldset {
+	padding: 30px;
+}
+
+table th,
+table td {
+	padding: 0;
+}
+
 /*****Form style css - End *******/
 
 /**
