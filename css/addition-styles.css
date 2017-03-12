@@ -659,6 +659,27 @@ table td {
 
 /*****Form style css - End *******/
 
+/************* BETHEME **********/
+
+.yba-home-event .Latest_news.featured .ul-second .desc {
+	margin-left: 36% !important;
+}
+
+.Latest_news ul {
+	margin-top: -6px;
+}
+
+a.button_theme,
+a.tp-button.button_theme,
+button,
+input[type='submit'],
+input[type='reset'],
+input[type='button'] {
+	background-color: #0070ff;
+}
+
+/************* BETHEME **********/
+
 /**
  * Header styling
  */
