@@ -680,6 +680,123 @@ input[type='button'] {
 
 /************* BETHEME **********/
 
+/************* CODE FOR BOG (INSTEAD OF BLOG NEWS)*****/
+
+.post-footer {
+	display: none;
+}
+
+.isotope-item {
+	margin-top: -10px;
+	padding-bottom: 15px;
+	border-width: 1px;
+	border-bottom: solid green;
+}
+
+.entry-title a {
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 15px;
+	letter-spacing: 0;
+}
+
+.image_frame {
+	width: 199px;
+	border: 0;
+}
+
+.image_wrapper {
+	height: 132px;
+}
+
+.image_frame:not(.no_link) .image_wrapper img:not(.ls-l) {
+	margin-bottom: 0 !important;
+}
+
+.post-meta .category .cat-btn {
+	display: none;
+}
+
+.author-date .vcard author post-author {
+	display: none;
+}
+
+.vcard.author.post-author {
+	display: none;
+}
+
+.author-date .date .label {
+	display: none;
+}
+
+.post-desc-wrapper .post-desc {
+	display: table;
+}
+
+.post-head {
+	display: table-row-group;
+}
+
+.post-title {
+	display: table-header-group;
+}
+
+.post-desc-wrapper .post-desc .post-title h2 {
+	line-height: 10px;
+	margin: 0 5px 5px 5px;
+}
+
+.post-desc-wrapper .post-desc .post-head .post-meta {
+	margin: 1px;
+}
+
+.post-desc-wrapper .post-desc {
+	padding-top: 0;
+}
+
+.blog_wrapper .post-item {
+	margin-bottom: 20px;
+}
+
+.pager_wrapper .pages a.active {
+	background-color: #289d66;
+}
+
+.pager_wrapper .pages a:hover {
+	background-color: #289d66;
+}
+
+.pager_wrapper .next_page {
+	color: #289d66;
+}
+
+.pager_wrapper .prev_page {
+	color: #289d66;
+}
+
+.my-blog-news .image_wrapper {
+	height: 270px;
+}
+
+.my-blog-news .image_wrapper a {
+	width: 99%;
+	height: 99%;
+}
+
+.image_wrapper a {
+	max-width: 99%;
+}
+
+.image_wrapper .mask {
+	display: none;
+}
+
+.image_wrapper a img {
+	height: 100% !important;
+}
+
+/************* CODE FOR BOG (INSTEAD OF BLOG NEWS)*****/
+
 /**
  * Header styling
  */
@@ -771,6 +888,31 @@ input[type='button'] {
 }
 
 /***********    HUY HEADER - End ***********/
+
+/*********** Hide right partf of sub-header  ***********/
+
+#Subheader ul.breadcrumbs {
+	display: none;
+}
+
+/* Sub-header */
+
+#Subheader .title {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #820000;
+}
+
+#Subheader:after {
+	display: none;
+}
+
+.header-stack #Top_bar .menu > li > a span:not(.description) {
+	margin-left: -24px;
+}
+
+/*********** Hide right partf of sub-header  ***********/
 
 /**
  * Footer styling
