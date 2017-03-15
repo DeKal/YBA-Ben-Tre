@@ -1040,7 +1040,7 @@ input[type='button'] {
 @media screen and (min-width: 500px) and (max-width: 820px) {
 
 .post-desc-wrapper {
-	width: 60%;
+	width: 60% !important;
 }
 
 }
