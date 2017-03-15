@@ -45,12 +45,24 @@
 }
 /* ***********ALL PAGES LAYOUT - End ***********/
 
+.fan-page {
+	text-align: center;
+	overflow: hidden;
+
+	@media screen and (min-width: 426px) and (max-width:768px) {
+	    display: none;
+	}
+}
+
+.fan-page-title {
+	@media screen and (min-width: 426px) and (max-width:768px) {
+	    display: none;
+	}	
+}
+
 /* ***********HOMEPAE STYLES - Start ***********/
 .home-fan-page{
 	@media screen and (min-width: 426px) and (max-width:768px) {
-		//margin: 0;
-	    //width: 100%!important;
-	    //clear: both;
 	    display: none;
 	}
 

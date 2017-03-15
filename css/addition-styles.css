@@ -78,6 +78,11 @@ textarea {
 
 /* ***********ALL PAGES LAYOUT - End ***********/
 
+.fan-page {
+	overflow: hidden;
+	text-align: center;
+}
+
 /* ***********HOMEPAE STYLES - Start ***********/
 
 .home-fan-page .fan-page {
@@ -1020,6 +1025,14 @@ input[type='button'] {
 /************* HUY FOOTER - End **********/
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
+
+.fan-page {
+	display: none;
+}
+
+.fan-page-title {
+	display: none;
+}
 
 .home-fan-page {
 	display: none;

@@ -18,8 +18,16 @@ jQuery( window ).resize(function() {
 function change_height_news() {
   var cw = jQuery('.caroufredsel_wrapper .content_slider_ul li a').width()*315/495;
   jQuery('.caroufredsel_wrapper .content_slider_ul li a').css({'height':cw+'px'});
-  console.log(cw);	
-  jQuery('.fan-page').css({'height':cw+'px'});
+  console.log(cw);
+  if (cw == 0)
+  {
+  	jQuery('.home-fan-page .fan-page').css({'height':'450px'});
+  }
+  else
+  {
+	  jQuery('.home-fan-page .fan-page').css({'height':cw+'px'});
+  }	
+
 }
 
 });
