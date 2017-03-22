@@ -78,3 +78,25 @@
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 /************* HUY FOOTER - End **********/
+
+/************* FLOATING BUTTON - Start **********/
+.textwidget {
+	#floating_btn {
+	    position: fixed;
+	    bottom: 10px;
+	    right: 15px;
+	    background-image: linear-gradient(-180deg, #ffea5a 0%, #fcbb35 100%);
+	    padding: 10px 16px;
+	    border-radius: 999rem;
+	    font-size: 15px;
+	    color: black;
+	    font-weight: 600;
+	    z-index: 9999;
+
+	    @media only screen and (max-width: 767px) {
+			font-size: 12px;
+			right: calc((100vw - 346px)/2);
+		}
+	}
+}
+/************* FLOATING BUTTON - End **********/

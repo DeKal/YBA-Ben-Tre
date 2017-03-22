@@ -1024,6 +1024,23 @@ input[type='button'] {
 
 /************* HUY FOOTER - End **********/
 
+/************* FLOATING BUTTON - Start **********/
+
+.textwidget #floating_btn {
+	font-size: 15px;
+	font-weight: 600;
+	position: fixed;
+	z-index: 9999;
+	right: 15px;
+	bottom: 10px;
+	padding: 10px 16px;
+	color: black;
+	border-radius: 999rem;
+	background-image: linear-gradient(-180deg, #ffea5a 0%, #fcbb35 100%);
+}
+
+/************* FLOATING BUTTON - End **********/
+
 @media screen and (min-width: 426px) and (max-width: 768px) {
 
 .fan-page {
@@ -1148,6 +1165,11 @@ input[type='button'] {
 .header-stack #Top_bar .container .column.one .top_bar_left .secondary_menu_wrapper #yba-header-title #yba-logo {
 	left: -150px;
 	height: 130px;
+}
+
+.textwidget #floating_btn {
+	font-size: 12px;
+	right: calc((100vw - 346px)/2);
 }
 
 }
