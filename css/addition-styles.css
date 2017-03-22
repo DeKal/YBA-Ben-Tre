@@ -1024,6 +1024,18 @@ input[type='button'] {
 
 /************* HUY FOOTER - End **********/
 
+
+
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+
+.image_wrapper {
+	height: 100% !important;
+}
+
+}
+
+
 /************* FLOATING BUTTON - Start **********/
 
 .textwidget #floating_btn {
@@ -1067,18 +1079,18 @@ input[type='button'] {
 
 }
 
-@media screen and (min-width: 500px) and (max-width: 820px) {
-
-.post-desc-wrapper {
-	width: 60% !important;
-}
-
-}
-
 @media only screen and (min-width: 601px) and (max-width: 700px) {
 
 .header-stack #Top_bar .container .column.one .top_bar_left .secondary_menu_wrapper #yba-header-title #yba-text {
 	width: 350px;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 820px) {
+
+.post-desc-wrapper {
+	width: 60% !important;
 }
 
 }
