@@ -143,7 +143,7 @@ textarea {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	font-weight: bold;
-	line-height: 40px;
+	line-height: 25px;
 	letter-spacing: 0;
 	background: linear-gradient(-180deg, #f60000 0%, #820000 100%);
 	-webkit-background-clip: text;
@@ -435,7 +435,7 @@ div[id^='bwg_container'] div[id^='bwg_container'] .bwg_img_clear {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	font-weight: bold;
-	line-height: 40px;
+	line-height: 25px;
 	margin-bottom: 5px;
 	letter-spacing: 0;
 	background: linear-gradient(-180deg, #f60000 0%, #820000 100%);
@@ -1024,18 +1024,6 @@ input[type='button'] {
 
 /************* HUY FOOTER - End **********/
 
-
-
-
-@media screen and (min-width: 360px) and (max-width: 767px) {
-
-.image_wrapper {
-	height: 100% !important;
-}
-
-}
-
-
 /************* FLOATING BUTTON - Start **********/
 
 .textwidget #floating_btn {
@@ -1052,6 +1040,14 @@ input[type='button'] {
 }
 
 /************* FLOATING BUTTON - End **********/
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+
+.image_wrapper {
+	height: 100% !important;
+}
+
+}
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
 
